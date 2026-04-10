@@ -1,6 +1,6 @@
 # Neuroengineering Dataset - Human Movement
 
-This repository contains datasets in CSV format related to human movement experiments, including gait and stair activities.
+This repository contains IMU-based recordings of human movement, including gait and stair negotiation tasks.
 
 ---
 
@@ -8,62 +8,77 @@ This repository contains datasets in CSV format related to human movement experi
 
 ```
 data/
-└── raw/
-    ├── gait/
-    ├── stair_ascent/
-    └── stair_descent/
+├── raw/
+│   ├── gait/
+│   ├── stair_ascent/
+│   └── stair_descent/
+└── metadata/
+    ├── dataset_description.md
+    ├── file_naming_convention.md
+    └── subject_key.csv
 ```
 
-* **gait**: walking recordings
-* **stair_ascent**: ascending stairs recordings
-* **stair_descent**: descending stairs recordings
+---
+
+## Tasks
+
+* gait: walking trials
+* stair_ascent: ascending stairs
+* stair_descent: descending stairs
+
+---
+
+## Protocols
+
+* 10MWT: 10 Meter Walking Test
+* 9SAD: Nine Stairs Ascent and Descent Test
 
 ---
 
 ## Data Format
 
-Each CSV file contains two sections:
+Each CSV file contains:
 
-### 1. Metadata (header section)
+1. Metadata (header section)
+2. Time series data (IMU signals and labels)
 
-Key-value pairs describing:
+For a detailed description, see:
 
-* subject information (age, height, weight)
-* clinical condition
-* activity type
-* acquisition parameters (sampling frequency, instrumentation)
-* experimental conditions
-
-### 2. Time Series Data
-
-Multivariate signals including:
-
-* joint angles
-* angular velocity
-* linear acceleration
-* footswitch signals (heel/toe)
-* segmentation labels
-
-Metadata and signal data are stored in the same file.
+```
+data/metadata/dataset_description.md
+```
 
 ---
 
-## Acquisition Details
+## File Naming
 
-* Sampling frequency: 62.5 Hz
-* Sensors: IMU-based system
-* Measurement: unilateral (e.g., right leg)
-* Sensor location: e.g., gastrocnemius
+All files follow a standardized naming convention:
+
+```
+SXX_task_protocol_trial.csv
+```
+
+Examples:
+
+* S01_gait_10MWT_01.csv
+* S01_stair_ascent_9SAD_01.csv
+
+Full details are available in:
+
+```
+data/metadata/file_naming_convention.md
+```
 
 ---
 
 ## Notes
 
-* Data in this repository are raw (unprocessed)
-* Missing values may appear as `NaN`
+* Data are raw and unprocessed
+* Missing values may appear as NaN
+* Subject identifiers are anonymized
 
 ---
 
 ## Authors
 
-Neuroengineering Group
+Neuroengineering Research Group
