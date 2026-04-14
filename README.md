@@ -9,7 +9,7 @@ This repository contains IMU-based recordings of healthy adults performing gait 
 - **Sensor placement:** posterior right leg (`Sensor Location = Gastrocnemio`)
 - **Sampling frequency:** 62.5 Hz
 - **Tasks:** gait, stair ascent, stair descent
-- **Total trials:** 90 CSV files
+- **Total trials:** 90 CSV files, one trial per file.
 - **Trials per task:** 30
 - **Nominal repetitions:** 3 trials per subject-task combination
 - **Task-specific subject IDs:** 10 per task
