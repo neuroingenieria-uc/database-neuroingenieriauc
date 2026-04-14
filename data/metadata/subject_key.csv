@@ -1,0 +1,15 @@
+participant_id,participant_initials,gait_subject_id,stair_ascent_subject_id,stair_descent_subject_id
+P01,AP,S01,,
+P02,CT,S02,S01,S01
+P03,EA,S03,,
+P04,EG,S04,,
+P05,GA,S05,S04,S04
+P06,IG,S06,S05,S05
+P07,JB,S07,S06,S06
+P08,LA,S08,S07,S07
+P09,OI,S09,S09,S09
+P10,TR,S10,,
+P11,EZ,,S02,S02
+P12,FM,,S03,S03
+P13,MF,,S08,S08
+P14,SS,,S10,S10
