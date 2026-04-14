@@ -1,3 +1,3 @@
-## TOD0 List
-- Check de axes of files.
-- Check integrity of files
+## TODO List
+1. Check de axes of files.
+2. Check integrity of files
