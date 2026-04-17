@@ -1,12 +1,11 @@
 Operator,GA
-Subject,OI
+Subject,S09
 Clinical Description,Sin Patologia
 Age,36
 Height (cm),173.0
 Weight (kg),70.0
 Activity,Marcha
 Inclination,0.0
-Speed (m/s),0.815
 Instrumentation,NP-HGAIT, HW : v5.1 , FW : v5.1
 Reference Orientation,"x: avance horizontal plano sagital, y: normal plano sagital, z: vertical hacia [-g] plano sagital."
 Measurement,"Unilateral, pierna derecha"
@@ -15,6 +14,8 @@ Segmentation,Marcha_Elizalde2023
 Sampling Frequency,62.5
 Number of Samples,828
 Description,Prueba Protocolo NEG (10MWT)
+Speed (m/s),0.815
+Trial DateTime,2025-07-31T10:28
 
 Angle_X,Angular_Velocity_X,Linear_Acceleration_X,Angle_Y,Angular_Velocity_Y,Linear_Acceleration_Y,Angle_Z,Angular_Velocity_Z,Linear_Acceleration_Z,FootSwitch_Heel,FootSwitch_Toe,Segmentation_output,Sync
 0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan

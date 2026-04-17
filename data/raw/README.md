@@ -1,6 +1,6 @@
 # Raw Data
 
-This folder contains the original, unprocessed recordings of all subjects and tasks.
+This folder contains the released trial-level recordings for all subjects and tasks.
 
 ## Structure
 
@@ -32,8 +32,9 @@ For detailed format description, see `../metadata/dataset_description.md`.
 
 ## Subject Identifiers
 
-- The `SXX` value in each file name is a task-specific `subject_id`.
-- Cross-task participant matching should use `../metadata/subject_key.csv`, not the `SXX` value alone.
+- The `SXX` value in each file name is a dataset-level `subject_id`.
+- The same `SXX` value refers to the same participant across all task folders.
+- `../metadata/subject_key.csv` provides subject initials and task availability for each `subject_id`.
 
 ## Notes
 

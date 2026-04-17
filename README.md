@@ -9,11 +9,10 @@ This repository contains IMU-based recordings of healthy adults performing gait 
 - **Sensor placement:** posterior right leg (`Sensor Location = Gastrocnemio`)
 - **Sampling frequency:** 62.5 Hz
 - **Tasks:** gait, stair ascent, stair descent
-- **Total trials:** 90 CSV files, one trial per file.
+- **Total trials:** 90 CSV files
 - **Trials per task:** 30
 - **Nominal repetitions:** 3 trials per subject-task combination
-- **Task-specific subject IDs:** 10 per task
-- **Dataset-level participants:** 14 unique participants in `subject_key.csv`
+- **Global subject IDs:** 14 unique `SXX` values across the repository
 - **Cross-task overlap:** 6 participants appear in both gait and stair tasks
 - **Age range observed in the released files:** 23 to 38 years
 
@@ -105,10 +104,9 @@ According to the provided protocols, both evaluations were designed for healthy 
 
 ## Participant Identifiers
 
-- The `SXX` token in the filename is a **task-specific** anonymous `subject_id`.
-- The same `SXX` value is **not guaranteed** to identify the same person across different tasks.
-- Cross-task participant matching must be performed through `data/metadata/subject_key.csv`.
-- `subject_key.csv` defines a dataset-level `participant_id` for participants observed across one or more tasks.
+- The `SXX` token in each filename is a dataset-level anonymous `subject_id`.
+- The same `SXX` value identifies the same participant across `gait`, `stair_ascent`, and `stair_descent`.
+- `data/metadata/subject_key.csv` maps each `subject_id` to subject initials and task availability.
 
 This means:
 
@@ -124,9 +122,9 @@ All files follow:
 
 Examples:
 
-- `S01_gait_10MWT_01.csv`
-- `S01_stair_ascent_9SAD_01.csv`
-- `S01_stair_descent_9SAD_01.csv`
+- `S02_gait_10MWT_01.csv`
+- `S02_stair_ascent_9SAD_01.csv`
+- `S02_stair_descent_9SAD_01.csv`
 
 For the full naming rules, see `data/metadata/file_naming_convention.md`.
 
@@ -155,6 +153,7 @@ Typical metadata fields include:
 - `Sampling Frequency`
 - `Number of Samples`
 - `Description`
+- `Trial DateTime`
 
 Task-specific metadata may also include:
 
@@ -163,6 +162,8 @@ Task-specific metadata may also include:
 - `Time Source` for stair tasks
 - `Vertical Gain (m)` for ascent
 - `Vertical Drop (m)` for descent
+
+`Trial DateTime` is stored as the last metadata row in ISO-like minute resolution (`YYYY-MM-DDTHH:MM`) and is derived from the original acquisition filename.
 
 ## Signal Channels
 
@@ -213,7 +214,6 @@ print(signals.head())
 
 ## Known Limitations
 
-- `subject_id` values are local to each task and should not be reused as global participant identifiers.
 - The released metadata are not perfectly uniform across all files.
 - Gait trial duration is heterogeneous across files, so sample count should be interpreted as exported recording length rather than as a direct proxy for one standardized walking window.
 - One stair-descent trial originally lacked complete `Stair Time (s)` and `Time Source` metadata; the header layout was normalized, but those values remain empty because they could not be reconstructed with certainty from the file alone.
@@ -229,7 +229,7 @@ print(signals.head())
 ## Out-of-Scope Uses
 
 - clinical diagnosis
-- cross-task identity analysis without using `participant_id`
+- demographic or identity inference beyond the anonymized subject IDs included in the release
 - inference of demographic variables beyond what is explicitly stored in the CSV metadata
 
 ## Documentation

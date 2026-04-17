@@ -1,5 +1,5 @@
 Operator,GA
-Subject,OI
+Subject,S09
 Clinical Description,Sin Patologia
 Age,36
 Height (cm),173.0
@@ -18,6 +18,7 @@ Speed (m/s),0.172
 Stair Time (s),8.899073
 Time Source,RealTime
 Vertical Drop (m),1.530
+Trial DateTime,2025-08-29T10:55
 
 Angle_X,Angular_Velocity_X,Linear_Acceleration_X,Angle_Y,Angular_Velocity_Y,Linear_Acceleration_Y,Angle_Z,Angular_Velocity_Z,Linear_Acceleration_Z,FootSwitch_Heel,FootSwitch_Toe,Segmentation_output,Sync
 14.5,nan,nan,nan,nan,-1.6855,nan,nan,7.0102,nan,nan,0,0

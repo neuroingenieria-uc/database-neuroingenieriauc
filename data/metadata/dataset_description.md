@@ -33,9 +33,9 @@ Each CSV file contains two sections:
 
 ## Participant Identification
 
-- Each recording file includes a task-specific anonymous `subject_id` in the `SXX` format.
-- `subject_id` values are scoped to a task and should not be assumed to match across `gait`, `stair_ascent`, and `stair_descent`.
-- Use `subject_key.csv` to map task-specific `subject_id` values to dataset-level `participant_id` values for cross-task analyses.
+- Each recording file includes a dataset-level anonymous `subject_id` in the `SXX` format.
+- The same `subject_id` is reused for the same participant across `gait`, `stair_ascent`, and `stair_descent`.
+- Use `subject_key.csv` to map each `subject_id` to subject initials and task availability.
 
 ## Acquisition
 
@@ -48,4 +48,4 @@ Each CSV file contains two sections:
 
 - Data are raw and unprocessed.
 - Missing values may appear as `NaN`.
-- Task folders share a common layout, but participant matching across tasks must be performed through `subject_key.csv`.
+- Task folders share a common layout, and cross-task participant matching can be done directly through the shared `subject_id`.
