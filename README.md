@@ -1,6 +1,6 @@
 # Neuroengineering Dataset - Human Movement
 
-This repository contains IMU-based recordings of healthy adults performing gait and stair-negotiation tasks with the H-GAIT neuroprosthesis. The dataset is organized as trial-level CSV files that combine per-trial metadata with time-series signals and event labels.
+This repository contains IMU-based recordings of healthy adults performing gait, stair-negotiation, and sit-to-stand tasks with the H-GAIT neuroprosthesis. The dataset is organized as trial-level CSV files that combine per-trial metadata with time-series signals and event labels.
 
 ## Dataset Snapshot
 
@@ -8,12 +8,12 @@ This repository contains IMU-based recordings of healthy adults performing gait 
 - **Instrumentation:** NP-HGAIT (`HW : v5.1`, `FW : v5.1`)
 - **Sensor placement:** posterior right leg (`Sensor Location = Gastrocnemio`)
 - **Sampling frequency:** 62.5 Hz
-- **Tasks:** gait, stair ascent, stair descent
-- **Total trials:** 90 CSV files
-- **Trials per task:** 30
-- **Nominal repetitions:** 3 trials per subject-task combination
+- **Tasks:** gait, sit-to-stand, stair ascent, stair descent
+- **Total trials:** 110 CSV files
+- **Trials per task:** 30 gait, 20 sit-to-stand, 30 stair ascent, 30 stair descent
+- **Nominal repetitions:** 3 trials per gait/stair subject-task combination; 2 trials per sit-to-stand subject
 - **Global subject IDs:** 14 unique `SXX` values across the repository
-- **Cross-task overlap:** 6 participants appear in both gait and stair tasks
+- **Cross-task overlap:** 5 participants appear in all four task groups
 - **Age range observed in the released files:** 23 to 38 years
 
 ## What Is Included
@@ -22,6 +22,7 @@ This repository contains IMU-based recordings of healthy adults performing gait 
 data/
 |-- raw/
 |   |-- gait/
+|   |-- sit-to-stand/
 |   |-- stair_ascent/
 |   `-- stair_descent/
 `-- metadata/
@@ -41,9 +42,10 @@ The repository currently contains:
 The released recordings were acquired under two standardized evaluation protocols:
 
 - **10MWT:** 10 Meter Walk Test for straight walking
+- **5STS:** Five Times Sit-to-Stand Test for repeated sit-to-stand movements
 - **9S-A/D:** Nine Stairs Ascent and Descent Test for stair ascent and stair descent
 
-According to the provided protocols, both evaluations were designed for healthy volunteers, used the H-GAIT neuroprosthesis with an IMU, included video recording plus optical synchronization barriers, and repeated each test three times with rest between repetitions.
+According to the provided protocols, the evaluations were designed for healthy volunteers, used the H-GAIT neuroprosthesis with an IMU, included video recording plus optical synchronization barriers, and repeated each test with rest between repetitions.
 
 ## Experimental Setup
 
@@ -62,6 +64,12 @@ According to the provided protocols, both evaluations were designed for healthy 
 - Start and end synchronization placed at the first and ninth step
 - Participant instructed to move at self-selected speed and stop at the ninth step or final landing
 
+### Sit-to-Stand (`5STS`)
+
+- Repeated sit-to-stand movement from a seated starting position
+- Protocol records the task duration as `Sit-to-Stand Time (s)`
+- Participant performs two released repetitions in the current dataset
+
 ### Shared Acquisition Conditions
 
 - Sensor mounted on the right lower limb
@@ -77,10 +85,21 @@ According to the provided protocols, both evaluations were designed for healthy 
 - Protocol: `10MWT`
 - Participants: 10
 - Sample count range: 428 to 1441 rows per file
-- Median sample count: 724 rows per file
+- Median sample count: 744 rows per file
 - Mean sample count: 741.9
 - Activity label in files: `Marcha`
 - Segmentation label in files: `Marcha_Elizalde2023`
+
+### `sit-to-stand`
+
+- Files: 20
+- Protocol: `5STS`
+- Participants: 10
+- Sample count range: 1043 to 1933 rows per file
+- Median sample count: 1569 rows per file
+- Mean sample count: 1557.4
+- Activity label in files: `Pararse`
+- Segmentation label in files: `Elizalde_STS2023`
 
 ### `stair_ascent`
 
@@ -105,14 +124,15 @@ According to the provided protocols, both evaluations were designed for healthy 
 ## Participant Identifiers
 
 - The `SXX` token in each filename is a dataset-level anonymous `subject_id`.
-- The same `SXX` value identifies the same participant across `gait`, `stair_ascent`, and `stair_descent`.
+- The same `SXX` value identifies the same participant across `gait`, `sit-to-stand`, `stair_ascent`, and `stair_descent`.
 - `data/metadata/subject_key.csv` maps each `subject_id` to subject initials and task availability.
 
 This means:
 
-- 4 participants appear only in gait
-- 4 participants appear only in stair tasks
-- 6 participants appear in both gait and stairs
+- 5 participants appear in all four task groups
+- 2 participants appear only in gait
+- 1 participant appears only in stair tasks
+- The remaining participants appear in two task groups
 
 ## File Naming
 
@@ -123,6 +143,7 @@ All files follow:
 Examples:
 
 - `S02_gait_10MWT_01.csv`
+- `S04_sit-to-stand_5STS_01.csv`
 - `S02_stair_ascent_9SAD_01.csv`
 - `S02_stair_descent_9SAD_01.csv`
 
@@ -158,8 +179,9 @@ Typical metadata fields include:
 Task-specific metadata may also include:
 
 - `Speed (m/s)` for all tasks
+- `Sit-to-Stand Time (s)` for sit-to-stand
 - `Stair Time (s)` for stair tasks
-- `Time Source` for stair tasks
+- `Time Source` for stair and sit-to-stand tasks
 - `Vertical Gain (m)` for ascent
 - `Vertical Drop (m)` for descent
 
@@ -169,7 +191,7 @@ Task-specific metadata may also include:
 
 The time-series section uses the following columns:
 
-`Angle_X, Angular_Velocity_X, Linear_Acceleration_X, Angle_Y, Angular_Velocity_Y, Linear_Acceleration_Y, Angle_Z, Angular_Velocity_Z, Linear_Acceleration_Z, FootSwitch_Heel, FootSwitch_Toe, Segmentation_output, Sync`
+`Angle_X, Angular_Velocity_X, Linear_Acceleration_X, Angle_Y, Angular_Velocity_Y, Linear_Acceleration_Y, Angle_Z, Angular_Velocity_Z, Linear_Acceleration_Z, FootSwitch_Heel, FootSwitch_Toe, Segmentation_output, Sync, Activity`
 
 At release time, the files include:
 
@@ -178,6 +200,7 @@ At release time, the files include:
 - footswitch channels
 - segmentation labels
 - synchronization markers
+- activity labels
 
 ## Processing Status
 
@@ -185,8 +208,9 @@ The repository documentation describes the data as raw and unprocessed. In pract
 
 - acquisition metadata
 - synchronization-related fields
-- task-specific speed and stair metrics
+- task-specific speed, stair, and sit-to-stand metrics
 - segmentation labels (`Segmentation_output`)
+- per-sample activity labels (`Activity`)
 
 So "raw" should be interpreted as trial-level exported recordings, not as sensor streams without metadata or derived labels.
 
@@ -222,7 +246,7 @@ print(signals.head())
 ## Recommended Uses
 
 - descriptive analysis of gait and stair negotiation with a wearable IMU
-- benchmarking event segmentation or activity-specific preprocessing methods
+- benchmarking event segmentation, activity recognition, or activity-specific preprocessing methods
 - pilot studies on protocol standardization and metadata design
 - educational use for parsing mixed metadata and time-series CSV datasets
 

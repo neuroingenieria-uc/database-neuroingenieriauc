@@ -7,11 +7,13 @@ This folder contains the released trial-level recordings for all subjects and ta
 ```text
 raw/
 |-- gait/
+|-- sit-to-stand/
 |-- stair_ascent/
 `-- stair_descent/
 ```
 
 - **gait**: walking trials (10MWT)
+- **sit-to-stand**: repeated sit-to-stand trials (5STS)
 - **stair_ascent**: ascending stairs (9SAD)
 - **stair_descent**: descending stairs (9SAD)
 
