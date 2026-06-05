@@ -17,6 +17,12 @@ This dataset contains IMU-based recordings of human movement, including gait, st
 - 5STS: Five Times Sit-to-Stand Test
 - 9SAD: Nine Stairs Ascent and Descent Test
 
+The corresponding protocol PDFs are stored in `../protocols`:
+
+- `gait_10mwt_protocol.pdf`
+- `sit-to-stand_5sts_protocol.pdf`
+- `stair_ascent_descent_9sad_protocol.pdf`
+
 ## Data Format
 
 Each CSV file contains two sections:

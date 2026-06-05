@@ -25,6 +25,10 @@ data/
 |   |-- sit-to-stand/
 |   |-- stair_ascent/
 |   `-- stair_descent/
+|-- protocols/
+|   |-- gait_10mwt_protocol.pdf
+|   |-- sit-to-stand_5sts_protocol.pdf
+|   `-- stair_ascent_descent_9sad_protocol.pdf
 `-- metadata/
     |-- dataset_description.md
     |-- file_naming_convention.md
@@ -34,18 +38,21 @@ data/
 The repository currently contains:
 
 - trial-level raw CSV recordings in `data/raw`
+- evaluation protocol PDFs in `data/protocols`
 - dataset-level metadata and documentation in `data/metadata`
 - citation and licensing files in the repository root
 
 ## Study Overview
 
-The released recordings were acquired under two standardized evaluation protocols:
+The released recordings were acquired under three standardized evaluation protocols:
 
 - **10MWT:** 10 Meter Walk Test for straight walking
 - **5STS:** Five Times Sit-to-Stand Test for repeated sit-to-stand movements
 - **9S-A/D:** Nine Stairs Ascent and Descent Test for stair ascent and stair descent
 
 According to the provided protocols, the evaluations were designed for healthy volunteers, used the H-GAIT neuroprosthesis with an IMU, included video recording plus optical synchronization barriers, and repeated each test with rest between repetitions.
+
+The released protocol PDFs are stored in `data/protocols`.
 
 ## Experimental Setup
 
@@ -258,6 +265,10 @@ print(signals.head())
 
 ## Documentation
 
+- `data/protocols/README.md`
+- `data/protocols/gait_10mwt_protocol.pdf`
+- `data/protocols/sit-to-stand_5sts_protocol.pdf`
+- `data/protocols/stair_ascent_descent_9sad_protocol.pdf`
 - `data/metadata/dataset_description.md`
 - `data/metadata/file_naming_convention.md`
 - `data/metadata/subject_key.csv`

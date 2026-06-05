@@ -32,6 +32,8 @@ Each CSV file includes:
 
 For detailed format description, see `../metadata/dataset_description.md`.
 
+The evaluation protocol PDFs are stored in `../protocols`.
+
 ## Subject Identifiers
 
 - The `SXX` value in each file name is a dataset-level `subject_id`.
