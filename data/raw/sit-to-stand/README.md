@@ -1,25 +1,9 @@
-# Sit-to-Stand Data
+# Sit-to-stand
 
-This folder contains recordings of subjects performing repeated sit-to-stand movements.
+20 CSV files, 10 participants, 2 recordings per participant; protocol `5STS`.
 
-## Task
-
-* Sit-to-stand repetitions
-
-## Protocol
-
-* 5STS (Five Times Sit-to-Stand Test)
-
-## Data
-
-Each file corresponds to a single trial from one subject.
-
-File naming convention:
-
-SXX_sit-to-stand_5STS_YY.csv
-
-## Notes
-
-* Data are raw and unprocessed
-* Metadata and signals are stored within each CSV file
-* Each released subject has two sit-to-stand trials
+Original declared label implementation: `Elizalde_STS2023`.
+Full samples, Sync, NaNs and recorded labels are preserved. Automatic
+segmentation is not a manually validated event reference. For protocol
+details and quality limitations, see the root README and the inventory
+in `../../metadata/manifest.json`. No continuous circuits are included.

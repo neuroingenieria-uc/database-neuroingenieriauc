@@ -1,24 +1,9 @@
-# Stair Descent Data
+# Stair descent
 
-This folder contains recordings of subjects descending stairs.
+33 CSV files, 11 participants, 3 recordings per participant; protocol `9SAD`.
 
-## Task
-
-* Stair descent (going down stairs)
-
-## Protocol
-
-* 9SAD (Nine Stairs Ascent and Descent Test)
-
-## Data
-
-Each file corresponds to a single trial from one subject.
-
-File naming convention:
-
-SXX_stair_descent_9SAD_YY.csv
-
-## Notes
-
-* Data are raw and unprocessed
-* Metadata and signals are stored within each CSV file
+Original declared label implementation: `BajarEscaleras_Elizalde2023`.
+Full samples, Sync, NaNs and recorded labels are preserved. Automatic
+segmentation is not a manually validated event reference. For protocol
+details and quality limitations, see the root README and the inventory
+in `../../metadata/manifest.json`. No continuous circuits are included.

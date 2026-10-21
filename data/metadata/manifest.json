@@ -1,0 +1,1482 @@
+{
+  "status": "snapshot_prepared_for_repository_update",
+  "files": [
+    {
+      "path": "data/raw/gait/S01_gait_10MWT_01.csv",
+      "subject": "S01",
+      "activity": "gait",
+      "trial": 1,
+      "samples": 1441,
+      "sha256": "37cd0eeabaadf74768614f31065c6478fd01cb5e347bc037d09206d566aeddc8",
+      "data_block_sha256": "6db8f9c530840eea36d2ec0da5606c1b0995c532370f6739ab99254b654726fb",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S01_gait_10MWT_02.csv",
+      "subject": "S01",
+      "activity": "gait",
+      "trial": 2,
+      "samples": 779,
+      "sha256": "72f89680a992337a37f737835de5be09a3dfac6014bb913fb68d0724d89e8626",
+      "data_block_sha256": "c6e8044bc73af27fd6207a8ff58ecbfe0badb6d940cb1341b478b8bf0dbf23fa",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S01_gait_10MWT_03.csv",
+      "subject": "S01",
+      "activity": "gait",
+      "trial": 3,
+      "samples": 764,
+      "sha256": "4665faff9e3d3fa6e2e1aec9eefccc955908934e0de54effa30c8761e681d567",
+      "data_block_sha256": "57f1a097d7636ec441b7d4021bec4e84c3183cb326f82944c72ce81a65491cb4",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S02_gait_10MWT_01.csv",
+      "subject": "S02",
+      "activity": "gait",
+      "trial": 1,
+      "samples": 573,
+      "sha256": "8861eaccd2ef563b180f32e9f4862858d2c670941696ee97cb20ad3f9425d3fc",
+      "data_block_sha256": "f7abe1e03c69d87c8c2647f78c9bb6731e2f568b16861f5bbd61b4c8a6beae0c",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S02_gait_10MWT_02.csv",
+      "subject": "S02",
+      "activity": "gait",
+      "trial": 2,
+      "samples": 831,
+      "sha256": "55e27616e8da36041b509d82a478939ff54a85e2b90c0ee9b5a5e22c980cc4b8",
+      "data_block_sha256": "1daccd06bb87724245adbd9136927bbccd36e94dea09be078dd47aafb4965ad8",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S02_gait_10MWT_03.csv",
+      "subject": "S02",
+      "activity": "gait",
+      "trial": 3,
+      "samples": 747,
+      "sha256": "d256ea346c9d0007689a61ca2e2e4eeea8d3083f50bb25b5ee724dff579e5923",
+      "data_block_sha256": "42d96a9060a5f3849258421e475ecafafd9ab46371fc710cd0e48abab8dfa6bc",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S03_gait_10MWT_01.csv",
+      "subject": "S03",
+      "activity": "gait",
+      "trial": 1,
+      "samples": 598,
+      "sha256": "09c529c011dd89be911397bbd8f78f37023526eea35ba60c1b65dcbf758ca495",
+      "data_block_sha256": "98c1272787589bd322f779bbc08cf2e3d29d7e8d233c0be4ffea1960514be995",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S03_gait_10MWT_02.csv",
+      "subject": "S03",
+      "activity": "gait",
+      "trial": 2,
+      "samples": 612,
+      "sha256": "9cb806ab6d7d114f84c1eed8a078308cf31c017805702f596d25283a75ead54c",
+      "data_block_sha256": "1e851ba63ed84b137d8907d79ea64575f1c5f55b864c43f93cd8ba9cfc2bec19",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S03_gait_10MWT_03.csv",
+      "subject": "S03",
+      "activity": "gait",
+      "trial": 3,
+      "samples": 553,
+      "sha256": "38d92a470c0e4cee2e74bee7fef3b04300b4f078b8b6464e6cc2447a779f2be6",
+      "data_block_sha256": "5ef1f43432a3886af7068bb32782a1377af5758b48eb478a302fe5513319a83a",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S04_gait_10MWT_01.csv",
+      "subject": "S04",
+      "activity": "gait",
+      "trial": 1,
+      "samples": 1010,
+      "sha256": "8448ef598de430ba42d6076c2a341d5977ad3409cdbfaccd5016e71ec2d5f2d5",
+      "data_block_sha256": "e93d5921ec5d0719eed153100967b0d1b884acd5b8d44014216d3f0214fea1a0",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S04_gait_10MWT_02.csv",
+      "subject": "S04",
+      "activity": "gait",
+      "trial": 2,
+      "samples": 1066,
+      "sha256": "d0a50a8dfb658ec26ac9283b99d31013a0f319268825e07f4595c325fd58e4a9",
+      "data_block_sha256": "21b285f08262e28f73824b9e8576becbb1128f9a79df1f40a68ebf123e1790a5",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S04_gait_10MWT_03.csv",
+      "subject": "S04",
+      "activity": "gait",
+      "trial": 3,
+      "samples": 724,
+      "sha256": "0001a743641a11a492c47cb9d71028c7cb6f32e325591ca59cccaffd83a5cccc",
+      "data_block_sha256": "d981128c8c44a2a01b014ba01d2cb3538a5275180d5c43e169410afc5e41069c",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S05_gait_10MWT_01.csv",
+      "subject": "S05",
+      "activity": "gait",
+      "trial": 1,
+      "samples": 578,
+      "sha256": "53a5e3f1c0833eff8691b9affdfcb4da9e0ef6fcff10c03c0ea2cb785a4d9c9e",
+      "data_block_sha256": "ada3e8a70412bdeea9421d3c0a19369b827a02bf0c0402d2a3aaa5ff8427a2f5",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S05_gait_10MWT_02.csv",
+      "subject": "S05",
+      "activity": "gait",
+      "trial": 2,
+      "samples": 581,
+      "sha256": "e44e9c4bc8891ae269d340f6b988134e5635bcd8addb6c03f01914096ac10342",
+      "data_block_sha256": "4fc2c2c1f5e658cb37116f1c98d7bb942af2d0feace8b8c7ee9b9854ed7eae3a",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S05_gait_10MWT_03.csv",
+      "subject": "S05",
+      "activity": "gait",
+      "trial": 3,
+      "samples": 599,
+      "sha256": "bcb40708d5c7af3767a740590a2d9cbd577797450d698dcbd7b339e4de80a9ae",
+      "data_block_sha256": "2ad4068dcf045483c19642b07a02346caee84458476cbb4c9c977cb32b18a513",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S06_gait_10MWT_01.csv",
+      "subject": "S06",
+      "activity": "gait",
+      "trial": 1,
+      "samples": 837,
+      "sha256": "057a09b5cd2e7c21e446f09999f80909d06d1d7b35ef36cb26eeff3afb9fc11a",
+      "data_block_sha256": "ee031899ea14981866e8a9227439a20eae85ab1aa6b27a172b37d3f26ad0299d",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S06_gait_10MWT_02.csv",
+      "subject": "S06",
+      "activity": "gait",
+      "trial": 2,
+      "samples": 839,
+      "sha256": "fe2aa9a93dcbd88644f926da3b4af596af1c9f75f1e05b4dc215ae96619376b5",
+      "data_block_sha256": "ae8b59fe8839daea7be243ad7adf494c243ece2d8c83cd06f8816d1b741eca23",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S06_gait_10MWT_03.csv",
+      "subject": "S06",
+      "activity": "gait",
+      "trial": 3,
+      "samples": 817,
+      "sha256": "3679e4d1e1e58cfdc4ece05842c3657dcc615650c2b29cb301f9b573f871df4e",
+      "data_block_sha256": "ed68cb826db5ddfc1d8b83c9df35f94aef39b3462a7187b1e0c5a9e45ae198fa",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S07_gait_10MWT_01.csv",
+      "subject": "S07",
+      "activity": "gait",
+      "trial": 1,
+      "samples": 795,
+      "sha256": "8f7a6131c78eeb36469822489d2ada4bb728f7f464ddd4b12c04650b775e3716",
+      "data_block_sha256": "80e7040cf22c8fe88ebdbb0300015576f1852fd4af13afefa36216d95e559fff",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S07_gait_10MWT_02.csv",
+      "subject": "S07",
+      "activity": "gait",
+      "trial": 2,
+      "samples": 804,
+      "sha256": "b438123902ae8edd96e40c39c5876ba1f95b542f1330f4763f344a94b60538bd",
+      "data_block_sha256": "44ea77a38d8682bde07a85461738981b37ad509a89e13ada45c933ecca68d7eb",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S07_gait_10MWT_03.csv",
+      "subject": "S07",
+      "activity": "gait",
+      "trial": 3,
+      "samples": 777,
+      "sha256": "7bdb97dd0e228cd5af44c9587b7da8374e81cb1dc328715746c7ab33a576e578",
+      "data_block_sha256": "4476b9218225fdec204cd896455a227a40e7458ff67635e8150d13b1bb7dc9b4",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S08_gait_10MWT_01.csv",
+      "subject": "S08",
+      "activity": "gait",
+      "trial": 1,
+      "samples": 635,
+      "sha256": "c05784efb7ae9e4dd5a552dc8fe85c4d668b39f39aa9421bde356cdcfd898ed6",
+      "data_block_sha256": "4f2dc0e88f2444d1b1ba2b8ab93a1ba84fe4d92fd91b619487ad04ec63b6e44b",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S08_gait_10MWT_02.csv",
+      "subject": "S08",
+      "activity": "gait",
+      "trial": 2,
+      "samples": 595,
+      "sha256": "bdf98da7efc0feda76a8610ff071bc7feb6710d8745374373eb52e074a2e2a9f",
+      "data_block_sha256": "488abcf7b5f16814f4fc5230e615172a1dc96749f761fa552413f00a01679398",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S08_gait_10MWT_03.csv",
+      "subject": "S08",
+      "activity": "gait",
+      "trial": 3,
+      "samples": 605,
+      "sha256": "5869f87c6569a74b7d2a425dbb079d28bf96dd433f3e83a306ec3c89d005f8a3",
+      "data_block_sha256": "585a247f07f0266c8b8fa23b58ae20e8e75daf29248a72bd1b61bc27450a188c",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S09_gait_10MWT_01.csv",
+      "subject": "S09",
+      "activity": "gait",
+      "trial": 1,
+      "samples": 828,
+      "sha256": "70579cd5a68a1724497e1fd4ff28a83b4107860e892e187809b554956c31ecd3",
+      "data_block_sha256": "f9763f454ed1d05f08381e3dc4fb6de40ef6ac9c74092ed5d288c88c243c9b0f",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved",
+        "age_correction_proposed_for_review"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S09_gait_10MWT_02.csv",
+      "subject": "S09",
+      "activity": "gait",
+      "trial": 2,
+      "samples": 841,
+      "sha256": "7a66bdce8872a42804a33f0b72942630ed288ca6bed3e53814f8276d08ace062",
+      "data_block_sha256": "7554391311fe162cef222ba70c70a521393405c501142ed736142daa7df7a20a",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S09_gait_10MWT_03.csv",
+      "subject": "S09",
+      "activity": "gait",
+      "trial": 3,
+      "samples": 826,
+      "sha256": "36a11896b8a617ba83d3c0b7d315975d737acf0c7ad60403a156c6a658d9ce3c",
+      "data_block_sha256": "f0f6739dfbaba585d5b10850b87253eedd9327a3dd2b37a21eba593dd428da76",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S10_gait_10MWT_01.csv",
+      "subject": "S10",
+      "activity": "gait",
+      "trial": 1,
+      "samples": 1091,
+      "sha256": "604718e610ed00281b6ad9e68e200e22f94b8699c89a023d2f373ad3734939c6",
+      "data_block_sha256": "94bf24a6f4b12c77b2af458b2c9bad10b4e12cc858f41b8f9c109a560ba07d8c",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/gait/S10_gait_10MWT_02.csv",
+      "subject": "S10",
+      "activity": "gait",
+      "trial": 2,
+      "samples": 710,
+      "sha256": "3cdee2337575699a9b13a34f998d50f9f8ede37250d1f16115766ea61e974d36",
+      "data_block_sha256": "a62cdddcdce958efc33a67d36f8ae825849c3c9d4f0909ab0289868dee1de54b",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/gait/S10_gait_10MWT_03.csv",
+      "subject": "S10",
+      "activity": "gait",
+      "trial": 3,
+      "samples": 556,
+      "sha256": "fc71ccfd25bb1c1f560fa36de6925ad4f835a1e2b2a35e29b2a8b666e5b18ad2",
+      "data_block_sha256": "8545851b8756e02b2f392d209ca108347cbe5a8f0425584f55fb21b0a987c320",
+      "segmentation": "Marcha_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_ascent/S02_stair_ascent_9SAD_01.csv",
+      "subject": "S02",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 604,
+      "sha256": "59ad826e46365dc2aba2d1c350a13bca37b39c2830a81838c8801fa0af6510f8",
+      "data_block_sha256": "ebd73e0bbc5b4a51da55af69fffa578c1d8ffac8efd7131c2549658de2cde4c2",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S02_stair_ascent_9SAD_02.csv",
+      "subject": "S02",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 661,
+      "sha256": "aa1fedc8efe2b257469b2576ab0ca3a0ed1a5394cece822057bf470e91ca0344",
+      "data_block_sha256": "dd4b148ede7bb2518a151b5c1b17d7b540eae5f0c160f1c319ad25eb995a512c",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S02_stair_ascent_9SAD_03.csv",
+      "subject": "S02",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 649,
+      "sha256": "c8c72f2315d90515938c1da3e3e5aa6110086263a0d84ec2922e3d7f413c1b67",
+      "data_block_sha256": "a1c6992c30aa5b4ca638175c49e796c20f48de86cc867fc137aa4b8046612543",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S05_stair_ascent_9SAD_01.csv",
+      "subject": "S05",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 475,
+      "sha256": "1a03ecb89189faaa8a7c42e238dd13e300164758abf472f324efc477c035266c",
+      "data_block_sha256": "e8efc4a2122135fc1cc0401beb4d9a153773de8cc855469ab14537c9aa9724ab",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S05_stair_ascent_9SAD_02.csv",
+      "subject": "S05",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 425,
+      "sha256": "3153526b0df0ab6e745652e15285b68a7105538e51cc714cc3ca570883a5b00e",
+      "data_block_sha256": "13c26238e644d44cc3e5473c8d6555fd630f16337bc03ec0226ea272636208d8",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S05_stair_ascent_9SAD_03.csv",
+      "subject": "S05",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 405,
+      "sha256": "2c09097203a268fc9a56cdeda89890311b2c9f2df61e3cacf2aa644443e6040a",
+      "data_block_sha256": "5e96135f2b66fef6f9ad6d85c8903b899d8bd96f077e40513c4dab691bc026f7",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S06_stair_ascent_9SAD_01.csv",
+      "subject": "S06",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 667,
+      "sha256": "5164b4c0bac48f56630d125daaad30c9632f335edf4732a49ff2401150b393a5",
+      "data_block_sha256": "66302c4af330547f95ec01b9428da85054886d02ba8f575a35847003adb314b8",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved",
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S06_stair_ascent_9SAD_02.csv",
+      "subject": "S06",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 681,
+      "sha256": "dcd99a9c4781940cbb6205839ad81088be2661d239812fa76f2e134140aac2b9",
+      "data_block_sha256": "d7b3ae4ca7562be2ca02eef214643e3f2a818b7da80ca6713dba60a854817aea",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S06_stair_ascent_9SAD_03.csv",
+      "subject": "S06",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 601,
+      "sha256": "10eec631d4c19107ecda314484df58162984557713c4dc868e5ea7bf0912704a",
+      "data_block_sha256": "1b034f1ae5f5c6d65e8b57c441cf7a39911d63efa1b4a4311f93667f4b058c26",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S07_stair_ascent_9SAD_01.csv",
+      "subject": "S07",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 677,
+      "sha256": "383a7c362faeeb339f0ebfd6a735e92c428b7373bd666e3d59e75f6405d40cde",
+      "data_block_sha256": "119c175438a5aea8412905ccf26c9ed82f945ef272295ddc52d9a7b6c3bd1e35",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S07_stair_ascent_9SAD_02.csv",
+      "subject": "S07",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 650,
+      "sha256": "fdfcfcb9b1179d5415339aaa4dc68670a9546724ad075cf33156eb53a5157094",
+      "data_block_sha256": "d727aa19b74a9ae93f63dce5d3337a244eea22c448dd0ed3af884d7631c502f3",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S07_stair_ascent_9SAD_03.csv",
+      "subject": "S07",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 707,
+      "sha256": "c3fd492adea9756a0ab411e39418806ee0e9fb97906cbfe61a01d0922596fd72",
+      "data_block_sha256": "f9ebb28b58ccfced933a63d5422f25a65f36c5f958a04506d8ccb48abfd10c50",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S08_stair_ascent_9SAD_01.csv",
+      "subject": "S08",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 565,
+      "sha256": "53fd77241c44e084ce8c6c8882a8368954d9deb0fd91d1496bed9b99b84c873d",
+      "data_block_sha256": "25219b03fff8c94f107f6b599e9d1a7e9439617df45aabfac28d1e3942fb2359",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S08_stair_ascent_9SAD_02.csv",
+      "subject": "S08",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 566,
+      "sha256": "3b076262572ac45fdb3d8c59b59945228eebfaee8ff5b93b99ae9abccba1a187",
+      "data_block_sha256": "c3b80749b1b29583eeba60fa9b79acefd87f0735192dfa63d1ce18ee759a1657",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S08_stair_ascent_9SAD_03.csv",
+      "subject": "S08",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 552,
+      "sha256": "1ee9b1fda82c6eb5b302d2fa587f5b8702724956830e45f89e000ee77a0dec72",
+      "data_block_sha256": "899edccb601748e6e151594dcce2fc6ea9627fc308d7874bd9d696e5f59f4f92",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S09_stair_ascent_9SAD_01.csv",
+      "subject": "S09",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 695,
+      "sha256": "08c7bddd82ebbbbe965c2dc08826bbc617e3ee6a25e6599c0db470de6accf731",
+      "data_block_sha256": "d599edf5b2cec181b73649883b8f94cdf22502140c368303e37520a0878222e2",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review",
+        "age_correction_proposed_for_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S09_stair_ascent_9SAD_02.csv",
+      "subject": "S09",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 582,
+      "sha256": "6f9839aa3c77c5a28c6ac4420f0bc4046ed73f471910973ebd010ace670abcfe",
+      "data_block_sha256": "7b6d5ead1abd38751a934f46fd0a2f71a08cd425c34eea60fa2810394fd2372b",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review",
+        "age_correction_proposed_for_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S09_stair_ascent_9SAD_03.csv",
+      "subject": "S09",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 583,
+      "sha256": "ec93738c5d3f0c6228a7ca5c98bec4bb77d001d92e89f818b6678a361e3481f3",
+      "data_block_sha256": "04e2761e10d1e27ac0e726ef0d96e2f2e7deb34ec72344ced9795d2eb0497118",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review",
+        "age_correction_proposed_for_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S11_stair_ascent_9SAD_01.csv",
+      "subject": "S11",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 623,
+      "sha256": "101d085902a7ecb108bc737e45612f31544f2b20103be0b20dc29221de71d9e5",
+      "data_block_sha256": "f534559140a21b91b334a4ee8e9a659488ea3391eac41f52f02114fe96641587",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S11_stair_ascent_9SAD_02.csv",
+      "subject": "S11",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 635,
+      "sha256": "25182f0b0610137c192ef125703ecdd1d060fe838773291b63c82e9c422e1181",
+      "data_block_sha256": "8a9e5354712fab2093daa3731084f177b3ebc880913a174537228f33b86066d0",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S11_stair_ascent_9SAD_03.csv",
+      "subject": "S11",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 588,
+      "sha256": "5de09540e93aafa3454da23eca65a0ab89ebdda9fd431a924cf795b4bfb99230",
+      "data_block_sha256": "982da3b648115862826913f5fa294d6c52dd075715752723ce3f349a9927a2ac",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S12_stair_ascent_9SAD_01.csv",
+      "subject": "S12",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 554,
+      "sha256": "6f8ac07a4dfd1b52e0bf1fc87a0c630869fe2f323cec6a0cc88f94f38ebf4ef3",
+      "data_block_sha256": "a2445046161918b2142e21a343f689ec47fbf9d854f87a516d6fd66881bc0467",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S12_stair_ascent_9SAD_02.csv",
+      "subject": "S12",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 656,
+      "sha256": "bd85799250fbbfca7416f533e7c6a6d15e0aa2063901dea351983ebf5c7f3ca3",
+      "data_block_sha256": "68ac774df285f294c247fafd73c016583a76756846da5f93b89b6db9fa74239e",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S12_stair_ascent_9SAD_03.csv",
+      "subject": "S12",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 603,
+      "sha256": "0d5d2c6d28b69dd462a42dfd84603025c2608ccd09c8119c9d741cebcdaee126",
+      "data_block_sha256": "c2158a20c7ba30be1d0d395bd1c8fc801e145e5c02b0a747d4aae0d824d5fd39",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S13_stair_ascent_9SAD_01.csv",
+      "subject": "S13",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 627,
+      "sha256": "f83b0000d1f2e5bd3f14fe54bc89424a6d72857ea8bb9c282aa84be64e8b9851",
+      "data_block_sha256": "8e3f7d912b6efb4d13f08af38b56d7a41623cbf743fd7ee90d75b1d7bcf956f9",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S13_stair_ascent_9SAD_02.csv",
+      "subject": "S13",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 524,
+      "sha256": "05c9b7b2048e77b54e4ec7cd7ed26216be1960e773278c30cce8b3ee37713001",
+      "data_block_sha256": "d3a447534a86b8203a82a2b01340ccd3eca420e5fea0965fe8ba4687bffaa1fd",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review",
+        "angular_jump_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S13_stair_ascent_9SAD_03.csv",
+      "subject": "S13",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 627,
+      "sha256": "ae3ecca52ac5d7e978b6dbfa8b407abcc8206cfbdf0e9fd0e8f756855976069d",
+      "data_block_sha256": "559a54257fba9754caf51df8f2b2918cca99ab180e9de07722d8f6b6e91e0801",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S14_stair_ascent_9SAD_01.csv",
+      "subject": "S14",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 473,
+      "sha256": "4e274d896d7a11ba010579eb00efe2fe8fd850a73a74f25bf1543c61de22b74b",
+      "data_block_sha256": "4784044f0e3cd716796c2df3284e189caa82254df61e4a27f402b788cc98d114",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S14_stair_ascent_9SAD_02.csv",
+      "subject": "S14",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 634,
+      "sha256": "616541be67a22fcb65f57879700ad2e34da983b608dfb6c71eff41e875d3dbf3",
+      "data_block_sha256": "db3dd4c62ae780cf5954f787750e1d3b37dc0f51470f88a3f6b41a731e069783",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S14_stair_ascent_9SAD_03.csv",
+      "subject": "S14",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 582,
+      "sha256": "3a332e1746903b0f9bf55e17c7193bf8bebb5ddf07fdc4c4bab64dfbf665729b",
+      "data_block_sha256": "37e33e6d4953e5193e44ac9f2c63808f2d7cf96c356d743e39d3ca45d361a693",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S15_stair_ascent_9SAD_01.csv",
+      "subject": "S15",
+      "activity": "stair_ascent",
+      "trial": 1,
+      "samples": 723,
+      "sha256": "c0475cbdfcccb379c8dd9362cf30b05971513d081d7eb4ad110cc6bd3ace99e6",
+      "data_block_sha256": "340ed2cfe7f668f638b71f2cac250826283012d8221c6c438c2c5f71cd3a8c58",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S15_stair_ascent_9SAD_02.csv",
+      "subject": "S15",
+      "activity": "stair_ascent",
+      "trial": 2,
+      "samples": 655,
+      "sha256": "738a6257c0c6f0d512f628bd5c93c69f6201a6de5248bdf7d68054c00b6ceaa3",
+      "data_block_sha256": "7fca81fe07cabda8c385c885681bff303230ef5fb124f7af7f48fcebf7700215",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_ascent/S15_stair_ascent_9SAD_03.csv",
+      "subject": "S15",
+      "activity": "stair_ascent",
+      "trial": 3,
+      "samples": 657,
+      "sha256": "1230f8c4d43ec69e9c592f639f60aeded7007e75c79fbad44f78de40cb95ee7c",
+      "data_block_sha256": "1fa611c03ec81521f05ebd8c0f183747ae475f6b632457bc842a1e8244f71916",
+      "segmentation": "SubirEscaleras_Elizalde2023",
+      "quality_flags": [
+        "acc_z_repeated_minimum_requires_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_descent/S02_stair_descent_9SAD_01.csv",
+      "subject": "S02",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 524,
+      "sha256": "fa28ddc389ef1fae2c23782feae64c3a92dfe7064ca078d71329dff5badf554d",
+      "data_block_sha256": "d38e49c2f63bff674c3e792420ea7cd53ec6f22b1d1564058eaaa60db2399ba8",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S02_stair_descent_9SAD_02.csv",
+      "subject": "S02",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 566,
+      "sha256": "c6022d5871193013b5c8bc0b1d8713e9f8641ef949170e46a211f71601825e5b",
+      "data_block_sha256": "3bbdab003ef2f99aba19b9e7145f915f1d7ca5924e5b178af5c0ab52cdb1a6b8",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S02_stair_descent_9SAD_03.csv",
+      "subject": "S02",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 579,
+      "sha256": "fcac735eef2f0a0f28d2a79406a6c5dd0bb6245d42fb598fe6363c87009f4e8b",
+      "data_block_sha256": "8443041c6bb89eb0d12e6b386373c9e8f55f7599ebf98273dc3d240cfbb06481",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S05_stair_descent_9SAD_01.csv",
+      "subject": "S05",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 623,
+      "sha256": "e59a869a0859458939398940d582327522d152751fd2f98e2850e41b060d0c52",
+      "data_block_sha256": "ae5199f2c03a79d6f0c5681592114ef27c294766b345a6d7a741ae27fab4e75d",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S05_stair_descent_9SAD_02.csv",
+      "subject": "S05",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 670,
+      "sha256": "c2dfe7abebf0dd77c5ad297968cb9b035ba7d7de47eb964cf927bc055d502940",
+      "data_block_sha256": "b335126155d6f770f386e18c87c7cfd95b3952a440c0371ca788a50bcfa768c7",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S05_stair_descent_9SAD_03.csv",
+      "subject": "S05",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 626,
+      "sha256": "2a61640726c6b718ba54c8ac97b212e39ed32c4c5c3e0305de66db82e9345693",
+      "data_block_sha256": "6fbabfd5c7f97e15c935c28689932e2a773960d3e7df9c78912c5eb920eb0f08",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S06_stair_descent_9SAD_01.csv",
+      "subject": "S06",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 538,
+      "sha256": "935626b372e2147f194254c8dc8b8f6a192ed5863cc9eaebe7f691415dc35826",
+      "data_block_sha256": "49c2ac3caf6a3c1116b93880728148b0e0c5c8f54cf0e94b133ac995f1264579",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S06_stair_descent_9SAD_02.csv",
+      "subject": "S06",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 553,
+      "sha256": "94fd65f3234349966671d764e2f8fd8ecbd1f13664818b303e3203cacc2ca571",
+      "data_block_sha256": "e2faf684072a4ed45d398b21b70db7e1430574bb4beacb2bd8bf4061ffb199ea",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S06_stair_descent_9SAD_03.csv",
+      "subject": "S06",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 566,
+      "sha256": "69193a63d8ba10857aa234145b2eec8a1005f8f672f1a9edf150028acc3c43d6",
+      "data_block_sha256": "89a0e7cd7f801882c8d199f82aa51a0b37554370d82cc95c6a1bbc470a953bc5",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": [
+        "stair_timing_metadata_not_reported"
+      ]
+    },
+    {
+      "path": "data/raw/stair_descent/S07_stair_descent_9SAD_01.csv",
+      "subject": "S07",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 648,
+      "sha256": "d84b7b55bd387a8143461d694d6c9b0d45924b6380cc93061e9543f3182cf844",
+      "data_block_sha256": "d527951ac6dac1964ea304eec1818cf8cebafbfd2774a265fc71711b8b864097",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S07_stair_descent_9SAD_02.csv",
+      "subject": "S07",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 687,
+      "sha256": "d11bcaa35d8216f9fda55cf70074b72aa04dc725aaca3a74714bf656842b6252",
+      "data_block_sha256": "28879d21aef127498d16994aab9d03dbc92924d295ba0d71a60baa17e8bb479d",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S07_stair_descent_9SAD_03.csv",
+      "subject": "S07",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 694,
+      "sha256": "4debce47dcd3bc63556d4610ca7f489452c3d97f21ec75140b09b987c64ec612",
+      "data_block_sha256": "13a5f8ff716d3e6da4a8666ba439fbd10a59a254ec11eaa531142c7faa0c5e1b",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S08_stair_descent_9SAD_01.csv",
+      "subject": "S08",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 492,
+      "sha256": "cba0a8d968ac0a2de12592d88046efbce067d60bf05b49822a408fbcbc4522f3",
+      "data_block_sha256": "0fb1a7e72c2617a8a1cfc9c1b9982798b6a052bcce5c03579194f17707f90be3",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S08_stair_descent_9SAD_02.csv",
+      "subject": "S08",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 664,
+      "sha256": "f7026a4bc13e7fc7c0332a029af65843b87b226a2e3b1234dfb08aeef142a546",
+      "data_block_sha256": "a3395dd05fc39636ba8d9ed1008d713f5925ec15a4ac6921d0c8de06a60ae8d7",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S08_stair_descent_9SAD_03.csv",
+      "subject": "S08",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 831,
+      "sha256": "d00a650a942c6b372c80616444f5ea4b8b99609447a51dfa6e83bf24de97c265",
+      "data_block_sha256": "ef7f3cb9631ce5b845e5e8c90d15875f92d7160f7084afe054cb090de8762676",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S09_stair_descent_9SAD_01.csv",
+      "subject": "S09",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 600,
+      "sha256": "365fa89d1ae67a08f389b6d79bc643f08cfa631757a789e64499f253ba300359",
+      "data_block_sha256": "89d4e32b410dfd2bf491ccba627ee14ae1269d70937bcb6a6df74b5e82d844d9",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": [
+        "age_correction_proposed_for_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_descent/S09_stair_descent_9SAD_02.csv",
+      "subject": "S09",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 600,
+      "sha256": "784c00f4dd5dea6498bd08f3af1b4d23128e7901b4ad1207a8c1444b05ab4b96",
+      "data_block_sha256": "eac817bb89f392c7dbf42f9f9f65d9c93018825ab237bfd404f7d91f3d191303",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": [
+        "age_correction_proposed_for_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_descent/S09_stair_descent_9SAD_03.csv",
+      "subject": "S09",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 630,
+      "sha256": "ba2e8ce6f7e53788724db3022bd416b07cb931465a0c706e3a7a553fe4aec0da",
+      "data_block_sha256": "13f4be87471a2f21ac9dd389dda3a94fd2c74898bf9ef13b42b7b9cb204fb9cd",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": [
+        "age_correction_proposed_for_review"
+      ]
+    },
+    {
+      "path": "data/raw/stair_descent/S11_stair_descent_9SAD_01.csv",
+      "subject": "S11",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 399,
+      "sha256": "8e0b207e0fba5dee4f3a781a01e4802d0c2dc81d02f806267e1a21051bd81809",
+      "data_block_sha256": "d8a28e74cf00ffdac4d16bdea84dbfcf71f0ff0c91eb54305123ddc15330ecc7",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S11_stair_descent_9SAD_02.csv",
+      "subject": "S11",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 322,
+      "sha256": "9625ca3e71c62ce6b69edc252eaf9af4ea49d58a9a977e0f4ef4f150224f5a3e",
+      "data_block_sha256": "72c4eee1b1dccd83ee4df23f8c9730568b1790279e21621eb476a669c7f02760",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S11_stair_descent_9SAD_03.csv",
+      "subject": "S11",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 445,
+      "sha256": "92058d6c7a7019235737f1fd5656560d6b7b32c6b182951ff1fc75991f489408",
+      "data_block_sha256": "dce7af2cd99faa6a7165ad9a1fc89c20363c6c5c8847de73f5569f42a1e723f7",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S12_stair_descent_9SAD_01.csv",
+      "subject": "S12",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 526,
+      "sha256": "faf44ae796b5a483a137f64a725c102cc9636f26329b8990e83bed72fffd29ce",
+      "data_block_sha256": "6ad14345cf623d8238b8de1274c452e52d1a3c1a16c48496f0cd81480e81a3ee",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S12_stair_descent_9SAD_02.csv",
+      "subject": "S12",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 514,
+      "sha256": "74bd1eb667d99856d539811218d52fd68af0a83ee9a4296617a482011e0a78b4",
+      "data_block_sha256": "c3b55c1251917fbea71af35a1917d3d4903298037d529f753d670c60762d96c0",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S12_stair_descent_9SAD_03.csv",
+      "subject": "S12",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 579,
+      "sha256": "990a383155caaa07080268d27033a207bb68fc0d9db054533dcd2c92b91315a3",
+      "data_block_sha256": "8641062e390714720daa1ed8852d03ab85f1438d6686200e74de160122d7890b",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S13_stair_descent_9SAD_01.csv",
+      "subject": "S13",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 448,
+      "sha256": "a32143481fe2ba5c1e2e64153114bcf4fd099bf115306776f18e4be3b2c5e2ab",
+      "data_block_sha256": "f2a80e642491dd6b70ff6e000eca5cd8e855f552e5edb2a654d03600f73bfe92",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S13_stair_descent_9SAD_02.csv",
+      "subject": "S13",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 483,
+      "sha256": "2a8f14cc4ce297b75e9c06df2e56113e40f62b90174ada4c2c9df15ea47dab05",
+      "data_block_sha256": "a26051b4a893c50b8ce065c9b13fe703bb59f291d60d8a3811e2992908f50f26",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S13_stair_descent_9SAD_03.csv",
+      "subject": "S13",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 521,
+      "sha256": "8a207847a47c2051ed28fe2721e99477828e6927729200d470f6d34c8e7f971b",
+      "data_block_sha256": "ac4ffc6530963520eaccc9af9e055371cf06298159f539bda6d6b76e9b6405f9",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S14_stair_descent_9SAD_01.csv",
+      "subject": "S14",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 423,
+      "sha256": "5e36b9d2d2c7d303bb68d18dd3d620ebc8a97cfe1d835c0453e582e1f6af7b5c",
+      "data_block_sha256": "7ce67d0671f5d284abaf568771929fd9ff6e4cc5c1671a77478aeb6540ad2ffd",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S14_stair_descent_9SAD_02.csv",
+      "subject": "S14",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 526,
+      "sha256": "d4c0fe581da103dd7bf488623792e1a05f1189eb01a4543da1b0b1ebd94ebbd2",
+      "data_block_sha256": "b73dd45ca1cea8d5710f69b41a6e5547e3fea22d1c2c01d4824941d65d169f0d",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S14_stair_descent_9SAD_03.csv",
+      "subject": "S14",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 632,
+      "sha256": "a017d6e75d48fab11c3d188b7c9dd2446f86dcc5250186d94cab3abb67c0e30d",
+      "data_block_sha256": "6164c6f24d50dfdc0efce66c673c4d0b1a8970a2ca71a48061ac1efad1ed0bc8",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S15_stair_descent_9SAD_01.csv",
+      "subject": "S15",
+      "activity": "stair_descent",
+      "trial": 1,
+      "samples": 632,
+      "sha256": "a020c97bd9993feb3b113c7c4059e1e8012f0cfeadecb8aa2f4d139c6945a097",
+      "data_block_sha256": "51c58cd9001114e4c64c541a3f8af47125997786f558651b099081de02949a14",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S15_stair_descent_9SAD_02.csv",
+      "subject": "S15",
+      "activity": "stair_descent",
+      "trial": 2,
+      "samples": 606,
+      "sha256": "ccf294b543d8273b1da2ee9b4f56be5b4f7b7d4959bfee91e974c8245ce53f0c",
+      "data_block_sha256": "a07b7f178d1234159ed37091ba8114566ffa9fc77df913bc5cffeae89b62a5b6",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/stair_descent/S15_stair_descent_9SAD_03.csv",
+      "subject": "S15",
+      "activity": "stair_descent",
+      "trial": 3,
+      "samples": 641,
+      "sha256": "c01867d395051ec74f854a7a33ed08dff994ee65e19260772a6911865a005438",
+      "data_block_sha256": "5a45488dff105338afd7f41156ed5dc3eb267a7732cd65ce7be3ed9671b11c96",
+      "segmentation": "BajarEscaleras_Elizalde2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S04_sit-to-stand_5STS_01.csv",
+      "subject": "S04",
+      "activity": "sit-to-stand",
+      "trial": 1,
+      "samples": 1609,
+      "sha256": "c4b1533c9040a3d838143a9993e0f9a903e16c93345deeca8eda37c1f528227e",
+      "data_block_sha256": "2bd3de85cc268a2b1d4111b7fac47c4f01156cefc01f5fac7aa65bb4a75fdc48",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S04_sit-to-stand_5STS_02.csv",
+      "subject": "S04",
+      "activity": "sit-to-stand",
+      "trial": 2,
+      "samples": 1516,
+      "sha256": "6ba94b1e1d238e2be7c13a41842858d0c9b7e1eb00acf4800e84fd957dd1aa28",
+      "data_block_sha256": "83573a776239ebb1e0cc2f7eb293aaa57e7467eb8b1c78cbf6f8f72823070987",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S05_sit-to-stand_5STS_01.csv",
+      "subject": "S05",
+      "activity": "sit-to-stand",
+      "trial": 1,
+      "samples": 1465,
+      "sha256": "7f18ba953d517c13d02d0d6278ad6dfc0766d6beb7ac5650c3b883e78e9e9f8d",
+      "data_block_sha256": "fceb772ecb69adb8eaafe8be1e9118902b3b235b0971f76f494df88e7803ad91",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S05_sit-to-stand_5STS_02.csv",
+      "subject": "S05",
+      "activity": "sit-to-stand",
+      "trial": 2,
+      "samples": 1329,
+      "sha256": "da2d041fb53e3570ad4fd26c41faee3c0f28ba77f491b1714394ee9253dad5cf",
+      "data_block_sha256": "22e07030cc38b566449e12d36a0aafd39a6a491b45f32c020ecb14b51fd7d088",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S06_sit-to-stand_5STS_01.csv",
+      "subject": "S06",
+      "activity": "sit-to-stand",
+      "trial": 1,
+      "samples": 1426,
+      "sha256": "2c82fde4f9186aa7a2403e1f158f6b8cc201165327bb7b97f57177696c254be0",
+      "data_block_sha256": "2e34c5da92086018e27ef39ea63bbcaea55a32bdb8b10ea3d3522041db89986c",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S06_sit-to-stand_5STS_02.csv",
+      "subject": "S06",
+      "activity": "sit-to-stand",
+      "trial": 2,
+      "samples": 1340,
+      "sha256": "5f2974e32bed8a43b8123bec335fbfd272d076671eceab31e42dbe4601583338",
+      "data_block_sha256": "af067ef304a934bda37c5e616bb284b4ec665d6604ef12a6be9ab79a422e4ddd",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/sit-to-stand/S07_sit-to-stand_5STS_01.csv",
+      "subject": "S07",
+      "activity": "sit-to-stand",
+      "trial": 1,
+      "samples": 1933,
+      "sha256": "d9a29f0ddb40da575ec47de9e8e11c52637b5680d30119ed03d0fe42f6533494",
+      "data_block_sha256": "5a58636504f215d1b1bc0639deea41e75af394564df8a9a4768471894873a589",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S07_sit-to-stand_5STS_02.csv",
+      "subject": "S07",
+      "activity": "sit-to-stand",
+      "trial": 2,
+      "samples": 1768,
+      "sha256": "f6eb9c7627bc2b7750ad4e583f0f83a79e74f07c501fe35c88fa52972c6cf6f2",
+      "data_block_sha256": "032a3109d8feed5bad4f55ea4d7e432601e18a2f350b9c8e25fe36ae9d0273f2",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S08_sit-to-stand_5STS_01.csv",
+      "subject": "S08",
+      "activity": "sit-to-stand",
+      "trial": 1,
+      "samples": 1598,
+      "sha256": "d6734f2ae9081fa0774e8c2851d1b3a6cf7730da08c4954bc957b96230fe3963",
+      "data_block_sha256": "33eefa5aa4be775160d3faf791367867052f61e35f74bb128965eebe7f985395",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S08_sit-to-stand_5STS_02.csv",
+      "subject": "S08",
+      "activity": "sit-to-stand",
+      "trial": 2,
+      "samples": 1576,
+      "sha256": "9c1e9c6687ef24ed09ed71f104b5ce6aa9d1f58d807a47d6d87ef9792ef993fa",
+      "data_block_sha256": "55e2290e728a95ee04a529fb24b49863467e9fd97d1ca24332fdecc1311079c8",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S09_sit-to-stand_5STS_01.csv",
+      "subject": "S09",
+      "activity": "sit-to-stand",
+      "trial": 1,
+      "samples": 1706,
+      "sha256": "1a27e8d4e2f9c191e9dc41aa25f12210b58a43b1ea93f023782cc9a86b9ce789",
+      "data_block_sha256": "e260e4a076e9680dd0f7130382a96df5a795330d2f648e92e198fcdc8730a409",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": [
+        "age_correction_proposed_for_review"
+      ]
+    },
+    {
+      "path": "data/raw/sit-to-stand/S09_sit-to-stand_5STS_02.csv",
+      "subject": "S09",
+      "activity": "sit-to-stand",
+      "trial": 2,
+      "samples": 1804,
+      "sha256": "be68ea549ca396346c6881f5b6d09ce197d157b8627a3cf6a95518bb76c59962",
+      "data_block_sha256": "eaceb33f39d420deb6b9c23c5399ef61326d28927ca86f9b6b54c9d5b7767b10",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": [
+        "age_correction_proposed_for_review"
+      ]
+    },
+    {
+      "path": "data/raw/sit-to-stand/S10_sit-to-stand_5STS_01.csv",
+      "subject": "S10",
+      "activity": "sit-to-stand",
+      "trial": 1,
+      "samples": 1106,
+      "sha256": "2a2aff1b64a935611cadc1e54a46e5490655bfd39d26b0db42fae11b51b9b60a",
+      "data_block_sha256": "83d23afe0fdd0b2c2c3a8d1197e8ddf3817d959255bdba53c087540f34955b7a",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S10_sit-to-stand_5STS_02.csv",
+      "subject": "S10",
+      "activity": "sit-to-stand",
+      "trial": 2,
+      "samples": 1043,
+      "sha256": "2a7975525dbbeb5af0d32eeceaa6778e60cc04bf41c8efc2786e27e65f86327d",
+      "data_block_sha256": "85fe9925e068e823c738bf4f112c7303e2e4f6a346b964a6b82577d0b8a92a79",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/sit-to-stand/S11_sit-to-stand_5STS_01.csv",
+      "subject": "S11",
+      "activity": "sit-to-stand",
+      "trial": 1,
+      "samples": 1562,
+      "sha256": "5720f795d9b0c336110b6484db8ab90b4e36030658e8baa72b2fff823b80d47d",
+      "data_block_sha256": "3852c70a996b833addf997ea1b9a09b9d0718ea1b57845ad9251317de0e52757",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S11_sit-to-stand_5STS_02.csv",
+      "subject": "S11",
+      "activity": "sit-to-stand",
+      "trial": 2,
+      "samples": 1535,
+      "sha256": "e5fad9c7f2bc8822fd5c17586cb76ce075c80e38c4aa75a6ef02ddd100f93e23",
+      "data_block_sha256": "7e88b1b6c9c81c8f4140c3e9883ac0e1a5063976b35d5f5594f23e614525d6f8",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S12_sit-to-stand_5STS_01.csv",
+      "subject": "S12",
+      "activity": "sit-to-stand",
+      "trial": 1,
+      "samples": 1753,
+      "sha256": "0e8b09f237b571fd416f25456046f75f2179137e9774e56b4462c11e344c6d6f",
+      "data_block_sha256": "00317c215111ccef109a1876e4f879204d284edc4bb801911837fa112cb7f44a",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S12_sit-to-stand_5STS_02.csv",
+      "subject": "S12",
+      "activity": "sit-to-stand",
+      "trial": 2,
+      "samples": 1621,
+      "sha256": "04ecc8b9a9e81da2645cd6f3cfc9b4a0b3224096aac53ce0e09ad7b3a2aa25dc",
+      "data_block_sha256": "c17bbf4f145125b675b570bdcf519a3ff2ef68ffb3cce2aeb98ebd7d3c71da9f",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    },
+    {
+      "path": "data/raw/sit-to-stand/S13_sit-to-stand_5STS_01.csv",
+      "subject": "S13",
+      "activity": "sit-to-stand",
+      "trial": 1,
+      "samples": 1917,
+      "sha256": "eacbdb6c12cc1742dc28168c09326c19b3ebde10d6f34428bfe0b315c96da4af",
+      "data_block_sha256": "9008afce45376cb496169c861ecdadbc0930a703290422a6c9580a27c1661ca4",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": [
+        "missing_angle_or_acc_z_preserved"
+      ]
+    },
+    {
+      "path": "data/raw/sit-to-stand/S13_sit-to-stand_5STS_02.csv",
+      "subject": "S13",
+      "activity": "sit-to-stand",
+      "trial": 2,
+      "samples": 1541,
+      "sha256": "f2cd86796954b6894ccf288fb25b3ec60ee1c376363ec8e839b6d70626f5efe1",
+      "data_block_sha256": "5433ab8fbec075b5b9e2187f518d2820f2bc61cc7601db3d287c018b8b40452b",
+      "segmentation": "Elizalde_STS2023",
+      "quality_flags": []
+    }
+  ],
+  "counts": {
+    "gait": 30,
+    "stair_ascent": 33,
+    "stair_descent": 33,
+    "sit-to-stand": 20
+  },
+  "distinct_participants": 15,
+  "label_policy": "Original recorded Elizalde labels; no thesis relabeling",
+  "privacy": "Pseudonymized; private correspondence excluded; not guaranteed anonymous",
+  "quality_flags": {
+    "missing_angle_or_acc_z_preserved": [
+      "data/raw/gait/S01_gait_10MWT_01.csv",
+      "data/raw/gait/S01_gait_10MWT_02.csv",
+      "data/raw/gait/S01_gait_10MWT_03.csv",
+      "data/raw/gait/S04_gait_10MWT_01.csv",
+      "data/raw/gait/S04_gait_10MWT_03.csv",
+      "data/raw/gait/S05_gait_10MWT_01.csv",
+      "data/raw/gait/S05_gait_10MWT_02.csv",
+      "data/raw/gait/S05_gait_10MWT_03.csv",
+      "data/raw/gait/S06_gait_10MWT_01.csv",
+      "data/raw/gait/S06_gait_10MWT_02.csv",
+      "data/raw/gait/S07_gait_10MWT_01.csv",
+      "data/raw/gait/S08_gait_10MWT_01.csv",
+      "data/raw/gait/S09_gait_10MWT_01.csv",
+      "data/raw/gait/S10_gait_10MWT_01.csv",
+      "data/raw/stair_ascent/S06_stair_ascent_9SAD_01.csv",
+      "data/raw/sit-to-stand/S06_sit-to-stand_5STS_02.csv",
+      "data/raw/sit-to-stand/S10_sit-to-stand_5STS_02.csv",
+      "data/raw/sit-to-stand/S13_sit-to-stand_5STS_01.csv"
+    ],
+    "age_correction_proposed_for_review": [
+      "data/raw/gait/S09_gait_10MWT_01.csv",
+      "data/raw/stair_ascent/S09_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S09_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S09_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_descent/S09_stair_descent_9SAD_01.csv",
+      "data/raw/stair_descent/S09_stair_descent_9SAD_02.csv",
+      "data/raw/stair_descent/S09_stair_descent_9SAD_03.csv",
+      "data/raw/sit-to-stand/S09_sit-to-stand_5STS_01.csv",
+      "data/raw/sit-to-stand/S09_sit-to-stand_5STS_02.csv"
+    ],
+    "acc_z_repeated_minimum_requires_review": [
+      "data/raw/stair_ascent/S02_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S02_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S02_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_ascent/S05_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S05_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S05_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_ascent/S06_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S06_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S06_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_ascent/S07_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S07_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S07_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_ascent/S08_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S08_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S08_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_ascent/S09_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S09_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S09_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_ascent/S11_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S11_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S11_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_ascent/S12_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S12_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S12_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_ascent/S13_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S13_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S13_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_ascent/S14_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S14_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S14_stair_ascent_9SAD_03.csv",
+      "data/raw/stair_ascent/S15_stair_ascent_9SAD_01.csv",
+      "data/raw/stair_ascent/S15_stair_ascent_9SAD_02.csv",
+      "data/raw/stair_ascent/S15_stair_ascent_9SAD_03.csv"
+    ],
+    "angular_jump_requires_review": [
+      "data/raw/stair_ascent/S13_stair_ascent_9SAD_02.csv"
+    ],
+    "stair_timing_metadata_not_reported": [
+      "data/raw/stair_descent/S06_stair_descent_9SAD_03.csv"
+    ]
+  }
+}
