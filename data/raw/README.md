@@ -1,49 +1,12 @@
 # Raw Data
 
-This folder contains the released trial-level recordings for all subjects and tasks.
+Four task folders contain 116 complete trial-level CSV exports: gait (30),
+stair_ascent (33), stair_descent (33), and sit-to-stand (20).
+Each combines pseudonymized acquisition metadata with the original sample
+table, Sync and recorded Elizalde FSM labels. Raw does not mean unscaled
+sensor packets or independently validated labels. Missing values are retained.
 
-## Structure
-
-```text
-raw/
-|-- gait/
-|-- sit-to-stand/
-|-- stair_ascent/
-`-- stair_descent/
-```
-
-- **gait**: walking trials (10MWT)
-- **sit-to-stand**: repeated sit-to-stand trials (5STS)
-- **stair_ascent**: ascending stairs (9SAD)
-- **stair_descent**: descending stairs (9SAD)
-
-## Data Organization
-
-- Each subfolder contains CSV files corresponding to individual trials.
-- Each file represents one subject performing one trial.
-- Data are grouped by task.
-
-## File Format
-
-Each CSV file includes:
-
-- metadata (header section)
-- time series data (IMU signals and labels)
-
-For detailed format description, see `../metadata/dataset_description.md`.
-
-The evaluation protocol PDFs are stored in `../protocols`.
-
-## Subject Identifiers
-
-- The `SXX` value in each file name is a dataset-level `subject_id`.
-- The same `SXX` value refers to the same participant across all task folders.
-- `../metadata/subject_key.csv` provides subject initials and task availability for each `subject_id`.
-
-## Notes
-
-- All data are raw and have not been preprocessed.
-- Missing values may appear as `NaN`.
-- File naming follows a standardized convention.
-
-For naming details, see `../metadata/file_naming_convention.md`.
+The global SXX identifies the same person across task folders. Availability
+is in `../metadata/participants.csv`, without initials or identity mapping.
+The manifest and schema in `../metadata` describe integrity and quality flags.
+Protocol PDFs remain in `../protocols`. See the root README for use limits.

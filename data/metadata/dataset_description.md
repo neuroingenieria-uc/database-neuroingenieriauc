@@ -1,60 +1,27 @@
 # Dataset Description
 
-## Overview
+This update contains 116 selected recordings from 15 distinct participants:
+30 gait, 33 stair ascent, 33 stair descent and 20 sit-to-stand CSV files.
+There are 10 walking participants, 11 per stair task and 10 sit-to-stand
+participants. Participants overlap across tasks; counts must not be added.
 
-This dataset contains IMU-based recordings of human movement, including gait, stair negotiation, and sit-to-stand tasks.
+The source metadata declare NP-HGAIT HW/FW v5.1, one right-leg measurement
+at the gastrocnemius and 62.5 Hz. Full trial-level exports are retained.
+Signals were not re-filtered, re-signed or relabeled during this preparation.
+The original Elizalde FSM output is automatic, not an independent manual
+reference; a complete cycle is not evidence of exact event timing.
 
-## Tasks
+Subject codes are shared across tasks. `participants.csv` lists only codes
+and availability; private initials/name and operator mappings are excluded.
+Age is at capture; exact personal dates and precise capture timestamps are
+not distributed in the updated files. Data are pseudonymized, not guaranteed
+anonymous. Earlier Git commits require a separate disclosure review.
 
-- gait: walking trials
-- sit-to-stand: repeated sit-to-stand trials
-- stair_ascent: ascending stairs
-- stair_descent: descending stairs
+The time-series table starts at Angle_X after the key/value metadata and a
+blank line. `schema.json` describes the common layout. Unreported protocol
+values remain empty, and signal NaNs remain unchanged. Sensor descriptions
+differ between acquisition periods and were not harmonized by assumption.
 
-## Protocols
-
-- 10MWT: 10 Meter Walking Test
-- 5STS: Five Times Sit-to-Stand Test
-- 9SAD: Nine Stairs Ascent and Descent Test
-
-The corresponding protocol PDFs are stored in `../protocols`:
-
-- `gait_10mwt_protocol.pdf`
-- `sit-to-stand_5sts_protocol.pdf`
-- `stair_ascent_descent_9sad_protocol.pdf`
-
-## Data Format
-
-Each CSV file contains two sections:
-
-1. Metadata (header section):
-   - anonymous participant metadata
-   - clinical description
-   - acquisition parameters
-   - experimental conditions
-2. Time series data:
-   - joint angles
-   - angular velocity
-   - linear acceleration
-   - footswitch signals
-   - segmentation labels
-   - activity labels
-
-## Participant Identification
-
-- Each recording file includes a dataset-level anonymous `subject_id` in the `SXX` format.
-- The same `subject_id` is reused for the same participant across `gait`, `sit-to-stand`, `stair_ascent`, and `stair_descent`.
-- Use `subject_key.csv` to map each `subject_id` to subject initials and task availability.
-
-## Acquisition
-
-- Sampling frequency: 62.5 Hz
-- Sensor type: IMU
-- Measurement: unilateral (e.g., right leg)
-- Sensor placement: gastrocnemius
-
-## Notes
-
-- Data are raw and unprocessed.
-- Missing values may appear as `NaN`.
-- Task folders share a common layout, and cross-task participant matching can be done directly through the shared `subject_id`.
+See the root README for protocols, available channels, handling of initial
+missing values, ascent signal-quality observations and usage limits. The
+manifest identifies affected file paths and exact released checksums.

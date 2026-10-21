@@ -1,0 +1,62 @@
+{
+  "format": "CSV metadata key,value rows; blank row; data header and samples",
+  "encoding": "UTF-8",
+  "delimiter": ",",
+  "metadata_fields": [
+    "Operator",
+    "Subject",
+    "Clinical Description",
+    "Age",
+    "Height (cm)",
+    "Weight (kg)",
+    "Activity",
+    "Inclination",
+    "Instrumentation",
+    "Reference Orientation",
+    "Measurement",
+    "Sensor Location",
+    "Segmentation",
+    "Sampling Frequency",
+    "Number of Samples",
+    "Description",
+    "Speed (m/s)",
+    "Trial Year",
+    "Stair Time (s)",
+    "Time Source",
+    "Vertical Displacement (m)",
+    "Sit-to-Stand Time (s)"
+  ],
+  "data_columns": [
+    "Angle_X",
+    "Angular_Velocity_X",
+    "Linear_Acceleration_X",
+    "Angle_Y",
+    "Angular_Velocity_Y",
+    "Linear_Acceleration_Y",
+    "Angle_Z",
+    "Angular_Velocity_Z",
+    "Linear_Acceleration_Z",
+    "FootSwitch_Heel",
+    "FootSwitch_Toe",
+    "Segmentation_output",
+    "Sync",
+    "Activity"
+  ],
+  "missing": "Source blanks and nan retained; no imputation",
+  "field_notes": {
+    "Subject": "Stable pseudonymous participant code, shared across activities",
+    "Operator": "Stable operator code; correspondence excluded from this folder",
+    "Age": "Completed years at capture, not at release; see README for derivation",
+    "Trial Year": "Capture year only; exact capture date/time excluded",
+    "Reference Orientation": "Original description retained; not a verified harmonized axis mapping",
+    "Segmentation": "Original declared Elizalde implementation; not a manual gold reference"
+  },
+  "protocol_fields": [
+    "Speed (m/s)",
+    "Stair Time (s)",
+    "Time Source",
+    "Vertical Displacement (m)",
+    "Sit-to-Stand Time (s)"
+  ],
+  "empty_protocol_fields": "Not applicable or not reported; never filled by assumption"
+}

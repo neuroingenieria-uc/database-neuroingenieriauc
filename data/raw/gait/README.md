@@ -1,24 +1,9 @@
-# Gait Data
+# Walking
 
-This folder contains walking recordings acquired using the 10 Meter Walking Test (10MWT).
+30 CSV files, 10 participants, 3 recordings per participant; protocol `10MWT`.
 
-## Task
-
-* Walking at self-selected speed over a 10-meter distance
-
-## Protocol
-
-* 10MWT (10 Meter Walking Test)
-
-## Data
-
-Each file corresponds to a single trial from one subject.
-
-File naming convention:
-
-SXX_gait_10MWT_YY.csv
-
-## Notes
-
-* Data are raw and unprocessed
-* Metadata and signals are stored within each CSV file
+Original declared label implementation: `Marcha_Elizalde2023`.
+Full samples, Sync, NaNs and recorded labels are preserved. Automatic
+segmentation is not a manually validated event reference. For protocol
+details and quality limitations, see the root README and the inventory
+in `../../metadata/manifest.json`. No continuous circuits are included.

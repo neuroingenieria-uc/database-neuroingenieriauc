@@ -1,0 +1,2 @@
+# Preserve the exact CSV bytes used by manifest SHA-256 checksums.
+data/raw/**/*.csv -text
