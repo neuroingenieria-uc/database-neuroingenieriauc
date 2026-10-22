@@ -95,19 +95,25 @@ videos are not distributed with the CSV files.
 ## Participant Identifiers and Privacy
 
 The same `SXX` identifies the same participant across task folders. Operators
-use `OPXX` codes. No private participant/operator correspondence, personal
-initials, or exact personal dates are included in this update.
+use `OPXX` codes. Private participant/operator correspondence and personal
+initials are not included. All 116 CSV files use `Birthdate`, consistently
+within each of the 15 participant codes; there is no `Age` metadata field.
+Dates were already recorded in 35 source captures. Another 68 captures use
+the date recorded in a different capture of the same participant. The
+remaining 13 use dates explicitly confirmed by the dataset maintainer for
+three participants. No birth date was inferred from an age. Original source
+headers remain unchanged in the private archive.
 
-`Age` denotes completed years at capture, not age at release. Where a full
-date was available in the source, age was calculated from it and the actual
-capture date. Otherwise the reported age was retained. Nine historical S09
+Every date was checked against the previously published age at capture. Nine historical S09
 records have a documented metadata correction from 36 to 37 years based on a
 confirmed birth year and the full date recorded in later captures.
 `Trial DateTime` preserves the exact date and time recorded for each capture,
 including the source precision. No additional seconds or timezone are inferred.
 
-The files are pseudonymized, not guaranteed anonymous. Age, height, weight,
-clinical description, exact capture time and movement signals remain in the release. This update
+The files use participant/operator codes, but are not anonymous. Full birth
+dates, height, weight, clinical description, exact capture time and movement
+signals remain in the release. Full birth dates increase the potential for
+identification; do not use this dataset for identity inference. This update
 does not erase identifying information from previous Git commits.
 
 ## File Naming
@@ -124,7 +130,7 @@ the manifest hashes for reproducibility.
 
 Each CSV has key/value metadata rows, a blank separator, and a sample table
 starting at the `Angle_X,...,Activity` header. Metadata follow the latest
-acquisition layout: `Age` replaces the personal date field, operators use codes,
+acquisition layout: `Birthdate` in every capture, operators use codes,
 and `Trial DateTime` is last, after the available protocol fields. Unavailable,
 empty or inapplicable fields are omitted rather than filled by assumption.
 Values containing commas are CSV-quoted. Locate the sample header rather
@@ -171,7 +177,7 @@ lines = path.read_text(encoding="utf-8-sig").splitlines()
 start = next(i for i, line in enumerate(lines) if line.startswith("Angle_X,"))
 metadata = dict(row for row in csv.reader(lines[:start]) if row)
 signals = pd.read_csv(io.StringIO("\n".join(lines[start:])))
-print(metadata["Subject"], metadata["Age"])
+print(metadata["Subject"], metadata["Birthdate"])
 print(signals.head())
 ```
 
