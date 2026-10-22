@@ -13,13 +13,14 @@ reference; a complete cycle is not evidence of exact event timing.
 
 Subject codes are shared across tasks. `participants.csv` lists only codes
 and availability; private initials/name and operator mappings are excluded.
-Age is at capture; exact personal dates and precise capture timestamps are
-not distributed in the updated files. Data are pseudonymized, not guaranteed
-anonymous. Earlier Git commits require a separate disclosure review.
+Age is at capture; dates of birth are not distributed. Exact capture dates
+and times are retained as recorded in Trial DateTime. Data are pseudonymized,
+not guaranteed anonymous. Earlier Git commits require a separate disclosure review.
 
 The time-series table starts at Angle_X after the key/value metadata and a
-blank line. `schema.json` describes the common layout. Unreported protocol
-values remain empty, and signal NaNs remain unchanged. Sensor descriptions
+blank line. `schema.json` describes the latest acquisition field order, with
+Age instead of the personal date field and Trial DateTime last. Unreported
+protocol values are omitted, and signal NaNs remain unchanged. Sensor descriptions
 differ between acquisition periods and were not harmonized by assumption.
 
 See the root README for protocols, available channels, handling of initial

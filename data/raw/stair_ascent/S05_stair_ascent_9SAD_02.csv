@@ -15,11 +15,10 @@ Sampling Frequency,62.5
 Number of Samples,425
 Description,Protocolo NEG - 9SAD
 Speed (m/s),0.251
-Trial Year,2025
 Stair Time (s),6.100539
 Time Source,RealTime
 Vertical Displacement (m),1.530
-Sit-to-Stand Time (s),
+Trial DateTime,2025-08-29T12:29
 
 Angle_X,Angular_Velocity_X,Linear_Acceleration_X,Angle_Y,Angular_Velocity_Y,Linear_Acceleration_Y,Angle_Z,Angular_Velocity_Z,Linear_Acceleration_Z,FootSwitch_Heel,FootSwitch_Toe,Segmentation_output,Sync,Activity
 1.2,nan,nan,nan,nan,-0.2682,nan,nan,-7.8913,nan,nan,0,0,US
