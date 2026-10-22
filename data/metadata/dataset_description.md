@@ -13,13 +13,18 @@ reference; a complete cycle is not evidence of exact event timing.
 
 Subject codes are shared across tasks. `participants.csv` lists only codes
 and availability; private initials/name and operator mappings are excluded.
-Age is at capture; dates of birth are not distributed. Exact capture dates
-and times are retained as recorded in Trial DateTime. Data are pseudonymized,
-not guaranteed anonymous. Earlier Git commits require a separate disclosure review.
+All 116 captures use Birthdate, consistently for each of the 15 participant
+codes. The date was already recorded in 35 captures, completed from another
+capture of the same participant in 68, and explicitly confirmed by the dataset
+maintainer in 13. No date is inferred from an age. Dates match the previously
+published ages at capture, including the confirmed S09 correction. Original
+source headers remain unchanged in the private archive. Exact capture dates
+and times remain as recorded in Trial DateTime. Codes do not make these
+records anonymous; full birth dates increase the potential for identification. Earlier Git commits require a separate disclosure review.
 
 The time-series table starts at Angle_X after the key/value metadata and a
 blank line. `schema.json` describes the latest acquisition field order, with
-Age instead of the personal date field and Trial DateTime last. Unreported
+Birthdate in every capture, no Age field, and Trial DateTime last. Unreported
 protocol values are omitted, and signal NaNs remain unchanged. Sensor descriptions
 differ between acquisition periods and were not harmonized by assumption.
 

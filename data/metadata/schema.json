@@ -6,7 +6,7 @@
     "Operator",
     "Subject",
     "Clinical Description",
-    "Age",
+    "Birthdate",
     "Height (cm)",
     "Weight (kg)",
     "Activity",
@@ -49,10 +49,10 @@
   "field_notes": {
     "Subject": "Stable pseudonymous participant code, shared across activities",
     "Operator": "Stable operator code; correspondence excluded from this folder",
-    "Age": "Completed years at capture, not at release; see README for derivation",
     "Trial DateTime": "Exact recorded capture date/time, with its original precision; not a per-sample timestamp",
     "Reference Orientation": "Original description retained; not a verified harmonized axis mapping",
-    "Segmentation": "Original declared Elizalde implementation; not a manual gold reference"
+    "Segmentation": "Original declared Elizalde implementation; not a manual gold reference",
+    "Birthdate": "Verified participant YYYY-MM-DD: recorded in this/another capture of the same participant, or explicitly confirmed by the dataset maintainer; never inferred from age"
   },
   "protocol_fields": [
     "Speed (m/s)",
@@ -64,6 +64,7 @@
     "Vertical Displacement (m)",
     "Track Distance (m)"
   ],
-  "metadata_order": "Latest acquisition layout with Age replacing the personal date field; Trial DateTime last",
-  "empty_protocol_fields": "Omitted when unavailable, empty or inapplicable, as in the latest acquisition writer; never inferred"
+  "metadata_order": "Latest acquisition layout; Birthdate in every capture, no Age field; Trial DateTime last",
+  "empty_protocol_fields": "Omitted when unavailable, empty or inapplicable, as in the latest acquisition writer; never inferred",
+  "personal_date_policy": "Birthdate in all 116 captures, consistent across each participant's recordings; source headers remain unchanged in the private archive"
 }

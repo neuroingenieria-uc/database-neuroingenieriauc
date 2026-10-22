@@ -7,7 +7,7 @@
       "activity": "gait",
       "trial": 1,
       "samples": 1441,
-      "sha256": "fb61c12e8f7da1bae541b8a4ec0d66a6812a39e45240d9affd2bcf10436a42cc",
+      "sha256": "aed63fafb75ab355531855bbe56da7e2c6edef9ab34cc09df3add0874bb7c97c",
       "data_block_sha256": "6db8f9c530840eea36d2ec0da5606c1b0995c532370f6739ab99254b654726fb",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -20,7 +20,7 @@
       "activity": "gait",
       "trial": 2,
       "samples": 779,
-      "sha256": "cfad9a6bcc10b286b156db02ac07841e46f60221a029ac7cb930fbf273795e00",
+      "sha256": "83ff042dd5380af67c1c38c7cad5951f735861a84dddc36071c0f6b08c6d0526",
       "data_block_sha256": "c6e8044bc73af27fd6207a8ff58ecbfe0badb6d940cb1341b478b8bf0dbf23fa",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -33,7 +33,7 @@
       "activity": "gait",
       "trial": 3,
       "samples": 764,
-      "sha256": "92f45c557a9376fdbd518848bd797f3b73268ea3b3f30e6d9224e372f89f3b9c",
+      "sha256": "6ce0ece6bd9ec93fd0bc223c74bcd34c6447f3d6d60254ecf942111b542976fa",
       "data_block_sha256": "57f1a097d7636ec441b7d4021bec4e84c3183cb326f82944c72ce81a65491cb4",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -46,7 +46,7 @@
       "activity": "gait",
       "trial": 1,
       "samples": 573,
-      "sha256": "210612bbbac9fb06094b007649af781b25bc995975990192779245a24c4eca94",
+      "sha256": "6bf942ea7789542698d3dc3021c761699159867d3878d78c8b3188b5ab491f46",
       "data_block_sha256": "f7abe1e03c69d87c8c2647f78c9bb6731e2f568b16861f5bbd61b4c8a6beae0c",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -57,7 +57,7 @@
       "activity": "gait",
       "trial": 2,
       "samples": 831,
-      "sha256": "189397a989ec683c154e715ef6272581ac9b8af855b7bdbb3dace95974312132",
+      "sha256": "067c9e5d2b28ca21ec6b6872b6b188fe6502b23680c48349ed7363e2b22f54de",
       "data_block_sha256": "1daccd06bb87724245adbd9136927bbccd36e94dea09be078dd47aafb4965ad8",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -68,7 +68,7 @@
       "activity": "gait",
       "trial": 3,
       "samples": 747,
-      "sha256": "2418075ebca4f7ee01eb77b34e8a738ffac85f1b6c134bfcfcc572c7302eafd4",
+      "sha256": "6ca99703beec3b717e66b2c3fca448ff71edb8932f8db102f5bd57cdf5fef55c",
       "data_block_sha256": "42d96a9060a5f3849258421e475ecafafd9ab46371fc710cd0e48abab8dfa6bc",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -79,7 +79,7 @@
       "activity": "gait",
       "trial": 1,
       "samples": 598,
-      "sha256": "ce82eae027e3711ab68135a81402482814ddc8c549ca267778ce8b218427e5a8",
+      "sha256": "8b229db2f035011f9b0acf83f183a36c20a0ea07334393db588e0e5700f1a3ab",
       "data_block_sha256": "98c1272787589bd322f779bbc08cf2e3d29d7e8d233c0be4ffea1960514be995",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -90,7 +90,7 @@
       "activity": "gait",
       "trial": 2,
       "samples": 612,
-      "sha256": "d1ce6ed3fd82ad7249e40f56d97f16ff50c43e31c076fc08f7a9ebd1a9f8306f",
+      "sha256": "5609f1a4d64793a1dc45a13224ab5589c30093720348932cf95446f1d6e3bd22",
       "data_block_sha256": "1e851ba63ed84b137d8907d79ea64575f1c5f55b864c43f93cd8ba9cfc2bec19",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -101,7 +101,7 @@
       "activity": "gait",
       "trial": 3,
       "samples": 553,
-      "sha256": "0803e23bf2122df6f80da6da55650805307a45b0b13d15f529886a6bba94b12b",
+      "sha256": "5f17a60139e263c8bb2bbc85bf5e04fcf19fba6193bd80f2cd0f7016c1f6f756",
       "data_block_sha256": "5ef1f43432a3886af7068bb32782a1377af5758b48eb478a302fe5513319a83a",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -112,7 +112,7 @@
       "activity": "gait",
       "trial": 1,
       "samples": 1010,
-      "sha256": "e9c840e1c7b6649279b9dd7fe44956024062f72ad09871381c38eba4de3314ea",
+      "sha256": "877cc909848fac7a18079b1b77792d50b3a0c53dda5a88259342cfa632645fe9",
       "data_block_sha256": "e93d5921ec5d0719eed153100967b0d1b884acd5b8d44014216d3f0214fea1a0",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -125,7 +125,7 @@
       "activity": "gait",
       "trial": 2,
       "samples": 1066,
-      "sha256": "889e5af98a14aaa233c4e433a199bb5581061aecc1c9901b9e58ae25e940f589",
+      "sha256": "bb4f9ad4f5dd57c3998a78877497e32e6fa0477c17bee2d32eb16c0c40781676",
       "data_block_sha256": "21b285f08262e28f73824b9e8576becbb1128f9a79df1f40a68ebf123e1790a5",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -136,7 +136,7 @@
       "activity": "gait",
       "trial": 3,
       "samples": 724,
-      "sha256": "8ddd9e1c790db35efa898ad15c649382aa2eab2ab1898f2f2c092b28f25f83a9",
+      "sha256": "fcfc1e0dd564c14ca1ccb02960cc48b8f67057d41fe62ed3cd6294b355e6e74d",
       "data_block_sha256": "d981128c8c44a2a01b014ba01d2cb3538a5275180d5c43e169410afc5e41069c",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -149,7 +149,7 @@
       "activity": "gait",
       "trial": 1,
       "samples": 578,
-      "sha256": "70fe6dcfdc181828cc61cc9b3bfc908be8a198684863bb41a5a5d5e17a4724b3",
+      "sha256": "c3410cefff1dce3d717eee424f02eda724db0db91093085648bcfb85328abbd5",
       "data_block_sha256": "ada3e8a70412bdeea9421d3c0a19369b827a02bf0c0402d2a3aaa5ff8427a2f5",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -162,7 +162,7 @@
       "activity": "gait",
       "trial": 2,
       "samples": 581,
-      "sha256": "9dbc4848b8565b25ffb957da58cb8bce0445f2b6a2ca6489eb48ed47f6a63ac7",
+      "sha256": "a306ae93206dba50bcc5b644be0a864389d890db6c4c25f19f18d88c4edf9612",
       "data_block_sha256": "4fc2c2c1f5e658cb37116f1c98d7bb942af2d0feace8b8c7ee9b9854ed7eae3a",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -175,7 +175,7 @@
       "activity": "gait",
       "trial": 3,
       "samples": 599,
-      "sha256": "0919f429f395c138abaf0372f6fc7bc62787bc8fc040fcb8c6d028ee612d7466",
+      "sha256": "62052d4559820b501b9e2bf3f3c1cda0a6abd68bcdda89145b3ec929fe656939",
       "data_block_sha256": "2ad4068dcf045483c19642b07a02346caee84458476cbb4c9c977cb32b18a513",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -188,7 +188,7 @@
       "activity": "gait",
       "trial": 1,
       "samples": 837,
-      "sha256": "c18ca64b1ef87edae72ed342bf0868a57e19e65fd222c14733ed51880f511021",
+      "sha256": "4da7108a9a108b7bb5af56056592fb019a2269e78575670950eda15b5ff3b338",
       "data_block_sha256": "ee031899ea14981866e8a9227439a20eae85ab1aa6b27a172b37d3f26ad0299d",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -201,7 +201,7 @@
       "activity": "gait",
       "trial": 2,
       "samples": 839,
-      "sha256": "b7df6f4d051786a0e9dbb060658fd2fad36661bc947b87d1e95b64297a8e3bca",
+      "sha256": "777544c59ceb152359bf11d2af74474db75c70e8da49b686411c840826c26f64",
       "data_block_sha256": "ae8b59fe8839daea7be243ad7adf494c243ece2d8c83cd06f8816d1b741eca23",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -214,7 +214,7 @@
       "activity": "gait",
       "trial": 3,
       "samples": 817,
-      "sha256": "b2b3bb03156e16dc22a223e0401f683303892f519c2e582f9c9ee8cb9b87bcf8",
+      "sha256": "f5748bdd769522a4b11b12173aad15c2d35708f39d102f4f7b16d42e90d0c7c3",
       "data_block_sha256": "ed68cb826db5ddfc1d8b83c9df35f94aef39b3462a7187b1e0c5a9e45ae198fa",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -225,7 +225,7 @@
       "activity": "gait",
       "trial": 1,
       "samples": 795,
-      "sha256": "15e477dd18b61711bc2fca8bd3821e74103cfa32176999699395820078450219",
+      "sha256": "a14f477aad2b95f37c7461d1641c56310682c7998ed66da2e16092d68ce027ef",
       "data_block_sha256": "80e7040cf22c8fe88ebdbb0300015576f1852fd4af13afefa36216d95e559fff",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -238,7 +238,7 @@
       "activity": "gait",
       "trial": 2,
       "samples": 804,
-      "sha256": "d1a9d59a26c191053ee26e0fd8487ef8b6373199c89b6956f2e058c840fcf6c7",
+      "sha256": "8e07df42d5930691e842f94e89d7c89115fe612d3618ab57b61d957ffac45228",
       "data_block_sha256": "44ea77a38d8682bde07a85461738981b37ad509a89e13ada45c933ecca68d7eb",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -249,7 +249,7 @@
       "activity": "gait",
       "trial": 3,
       "samples": 777,
-      "sha256": "d2625f9531b08e05b570d6caa33b878c6efd72869b6e011002bc41c16b48e873",
+      "sha256": "3b0aa9c19e4c9af4d013ef22cf9513375e6c3532a43f797fb9f211911c2663b5",
       "data_block_sha256": "4476b9218225fdec204cd896455a227a40e7458ff67635e8150d13b1bb7dc9b4",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -260,7 +260,7 @@
       "activity": "gait",
       "trial": 1,
       "samples": 635,
-      "sha256": "19fe5db510f3b64f19f43cad94f6f06807079c0ded96b197850a1760ddacefe1",
+      "sha256": "03c04411c8c0bde83147c45274b5771521e0ed882bbcd4522dd5823ad8371fb0",
       "data_block_sha256": "4f2dc0e88f2444d1b1ba2b8ab93a1ba84fe4d92fd91b619487ad04ec63b6e44b",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -273,7 +273,7 @@
       "activity": "gait",
       "trial": 2,
       "samples": 595,
-      "sha256": "a51a945ef7d9bb3af3b7c4ecb0aa37f64ad2d5e296069d7d30b0a53c3213ea4a",
+      "sha256": "dc79f3da96d9fc4ab2349efdfa4f15d502d1723ce0f6ba3cdab306c44b68d4de",
       "data_block_sha256": "488abcf7b5f16814f4fc5230e615172a1dc96749f761fa552413f00a01679398",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -284,7 +284,7 @@
       "activity": "gait",
       "trial": 3,
       "samples": 605,
-      "sha256": "7e359404565df5366b9433762e96b4fe805be0a3ae6c479f7545c9158cbd2219",
+      "sha256": "dcf0f6f086dfa8f5f756437a52e15ae0eecdd3e7830861980e74af9c5c775a2e",
       "data_block_sha256": "585a247f07f0266c8b8fa23b58ae20e8e75daf29248a72bd1b61bc27450a188c",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -295,7 +295,7 @@
       "activity": "gait",
       "trial": 1,
       "samples": 828,
-      "sha256": "1a62ecb86a6192a02141252580367792f01c402677986a2306c050dc8e81fdee",
+      "sha256": "fb698ff98e98d2fda41228d2a097cfa94f646e8b04c479e01e6ad8f142ba32fa",
       "data_block_sha256": "f9763f454ed1d05f08381e3dc4fb6de40ef6ac9c74092ed5d288c88c243c9b0f",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -309,7 +309,7 @@
       "activity": "gait",
       "trial": 2,
       "samples": 841,
-      "sha256": "ece61168a9575779c85f14c8afdaa3289997f1238f0368a782d384b720ccace0",
+      "sha256": "25c3b7299e6b4ba89e1d87b7a305fe8a46c45f5ca26a412f92e858023b14b5f6",
       "data_block_sha256": "7554391311fe162cef222ba70c70a521393405c501142ed736142daa7df7a20a",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -320,7 +320,7 @@
       "activity": "gait",
       "trial": 3,
       "samples": 826,
-      "sha256": "1d6e6829d18af907c849e4e7a513a2e0566279e7429849c8b1c5a22605a61948",
+      "sha256": "9531f36060785490409f6954a6f0696f6bd761ade051c0d73b8a6bf5cab24369",
       "data_block_sha256": "f0f6739dfbaba585d5b10850b87253eedd9327a3dd2b37a21eba593dd428da76",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -331,7 +331,7 @@
       "activity": "gait",
       "trial": 1,
       "samples": 1091,
-      "sha256": "d8041c92e5b952e33714a2ded91da62132935ca95cc1901d0a5f60873c8b4de0",
+      "sha256": "25ef9c30edb099a17f9edc89f9d312f329a0bd1e0db90581c4ce8540f4c7c8e8",
       "data_block_sha256": "94bf24a6f4b12c77b2af458b2c9bad10b4e12cc858f41b8f9c109a560ba07d8c",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": [
@@ -344,7 +344,7 @@
       "activity": "gait",
       "trial": 2,
       "samples": 710,
-      "sha256": "f3466452a4d556ce98a1e41264ede19ebd257725e667a246c3517f53546bf139",
+      "sha256": "13c7e46da6b75b1592d24abe9544e226c1bd1f10adb0b4e7320dfc7fa4d5e24a",
       "data_block_sha256": "a62cdddcdce958efc33a67d36f8ae825849c3c9d4f0909ab0289868dee1de54b",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -355,7 +355,7 @@
       "activity": "gait",
       "trial": 3,
       "samples": 556,
-      "sha256": "44988e35b341dd526baff9c7ed56a316298ef3c416db6a76299a0986413a99ac",
+      "sha256": "4c15953939f5ddc951096fc3e0da3e209d06eeae574255a67ac1eae25d0a02fa",
       "data_block_sha256": "8545851b8756e02b2f392d209ca108347cbe5a8f0425584f55fb21b0a987c320",
       "segmentation": "Marcha_Elizalde2023",
       "quality_flags": []
@@ -366,7 +366,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 604,
-      "sha256": "7ca254c34c89ca547830371c9eac5c837c6ee693baac66bfed5734d35a316ce9",
+      "sha256": "452a5ba55c07943769e7aec7f4556a324f522b0fa217bb7a02c7446bdeeb3709",
       "data_block_sha256": "ebd73e0bbc5b4a51da55af69fffa578c1d8ffac8efd7131c2549658de2cde4c2",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -379,7 +379,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 661,
-      "sha256": "2b70472401c910989c59f3f6446a5e5efe093d262d97b6f7dd246809f3709981",
+      "sha256": "128799c8a7f8b092bc7ca4dcb61acda87f9c8dc4e9f81b1604531f2a15595a2c",
       "data_block_sha256": "dd4b148ede7bb2518a151b5c1b17d7b540eae5f0c160f1c319ad25eb995a512c",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -392,7 +392,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 649,
-      "sha256": "2b5dc9499489856282a12f18e9b85e01de23aa7c2341642244ee4edf4e1d2592",
+      "sha256": "b7f951d88798559b8e88916d427df715827551e1fe80dfdfe5524daf78a1969d",
       "data_block_sha256": "a1c6992c30aa5b4ca638175c49e796c20f48de86cc867fc137aa4b8046612543",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -405,7 +405,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 475,
-      "sha256": "ed7542c81bbba51a961ccc8465047c24c476d18fd2493eeb7029fc4c456468ad",
+      "sha256": "13b68485a3b3169235c882f041f357337e4a54930eb9ae33f7fed2ba24ff490b",
       "data_block_sha256": "e8efc4a2122135fc1cc0401beb4d9a153773de8cc855469ab14537c9aa9724ab",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -418,7 +418,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 425,
-      "sha256": "66f524a6a92607956ee17342a11b7ed905a93be3b151db986d1df879976fde4c",
+      "sha256": "f54f0ed42585d0bad051a11523518458be705a119ea520ab0580ced7ceb678e6",
       "data_block_sha256": "13c26238e644d44cc3e5473c8d6555fd630f16337bc03ec0226ea272636208d8",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -431,7 +431,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 405,
-      "sha256": "b1ebe0aedd8ac3cb0b27a333f37244bcc6279fea0c83083246669690003f3fbb",
+      "sha256": "25175ee8bcfdcf3f599642e97faa8c2704d0909a28ee9b5d6763899b0487043c",
       "data_block_sha256": "5e96135f2b66fef6f9ad6d85c8903b899d8bd96f077e40513c4dab691bc026f7",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -444,7 +444,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 667,
-      "sha256": "58988bcd5e7a484b430eadb7ae5eacda3c30d89a493f5e264e46d110e6186ad9",
+      "sha256": "6be79c424c9cfadc93c018ca4eebb41be717acaef8cc551d162dcf0d72d1c5e5",
       "data_block_sha256": "66302c4af330547f95ec01b9428da85054886d02ba8f575a35847003adb314b8",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -458,7 +458,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 681,
-      "sha256": "2c1920a9f70b13a1528aa5d44f92d7a172af42d470749c265e6326c7bae9a2e1",
+      "sha256": "92fa80d1e3c0d208d86e92f343855e58baf0f93812eadf20b10381cd91bcdf26",
       "data_block_sha256": "d7b3ae4ca7562be2ca02eef214643e3f2a818b7da80ca6713dba60a854817aea",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -471,7 +471,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 601,
-      "sha256": "bdea3a144a1f167c3ad0b7d415234c8a72c5a985058c586127d98716f4608b50",
+      "sha256": "974034dcecc248c70ea1caf2099cc34c5370a3679a0e8c59d15ff739ed51e899",
       "data_block_sha256": "1b034f1ae5f5c6d65e8b57c441cf7a39911d63efa1b4a4311f93667f4b058c26",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -484,7 +484,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 677,
-      "sha256": "b628ab33756efc9b629bb04f089bd1974a2f624a9899116dd1cc0a69b3979a36",
+      "sha256": "5df7e7b12d39483f54af1b7ffd0011bd05adc3f432e64dddc62a7b5cd4b18af6",
       "data_block_sha256": "119c175438a5aea8412905ccf26c9ed82f945ef272295ddc52d9a7b6c3bd1e35",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -497,7 +497,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 650,
-      "sha256": "c104a6a8d28e91eb59db7a4216a0ab976eedda83dc8154695938a283e63aec0a",
+      "sha256": "9f8a45812f484faf5961ce89ab50413693d3c6ccd28ad3ddc094751325014459",
       "data_block_sha256": "d727aa19b74a9ae93f63dce5d3337a244eea22c448dd0ed3af884d7631c502f3",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -510,7 +510,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 707,
-      "sha256": "d9e22060c238071be60adbbaddaf0ef4b720d860b7bfffbed0cd31d6da97dac5",
+      "sha256": "a1e469f93dc9d28f4bc4b0327e14bf2f3cf8a5e1e07324d790b367fa26343920",
       "data_block_sha256": "f9ebb28b58ccfced933a63d5422f25a65f36c5f958a04506d8ccb48abfd10c50",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -523,7 +523,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 565,
-      "sha256": "1a0c4707824f2efdc856074cc99197cc0ac2b1b96813f7260e6b221e21f1c573",
+      "sha256": "465d2b24fb5b8b44e862f4194481e95c631fa7d3e4c51ea8c4e04ad42fed883a",
       "data_block_sha256": "25219b03fff8c94f107f6b599e9d1a7e9439617df45aabfac28d1e3942fb2359",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -536,7 +536,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 566,
-      "sha256": "1c4868786fa0a1d1feea8c917bfbc8149626cdd710228bddbbde334216f3d435",
+      "sha256": "4a8449ad55a58b205d5a02d0534cf21bab755731693c2ff6065acc36737c1264",
       "data_block_sha256": "c3b80749b1b29583eeba60fa9b79acefd87f0735192dfa63d1ce18ee759a1657",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -549,7 +549,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 552,
-      "sha256": "d61d339aab75cf72f5fb148833aecc7d64f91ceba3b43fb29ff9acfaf8a753a0",
+      "sha256": "39a0abdf66777ba494cfa2c55e21d8aa90cd81859a9ac2280af648be90092e26",
       "data_block_sha256": "899edccb601748e6e151594dcce2fc6ea9627fc308d7874bd9d696e5f59f4f92",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -562,7 +562,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 695,
-      "sha256": "df0ac2f3dd0cb59e340a91316e84f4f058bde5dca81e9c4619c834704058f709",
+      "sha256": "cbec96de6f37fee3522037297efaf7b20f221e9563e4fffe1663732608fd6477",
       "data_block_sha256": "d599edf5b2cec181b73649883b8f94cdf22502140c368303e37520a0878222e2",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -576,7 +576,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 582,
-      "sha256": "9d62aebbec22a24a5bc5fcd0d5456eaa5f51de263ed80be398df21208f020ac5",
+      "sha256": "ddf3e0af4a9ab24adc1cf9f69439ec67889828581715695671250c9fa9a81fab",
       "data_block_sha256": "7b6d5ead1abd38751a934f46fd0a2f71a08cd425c34eea60fa2810394fd2372b",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -590,7 +590,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 583,
-      "sha256": "7af6fcfba94d4cd31d194efabc3f08e657634a8cbbf4de7d530d837dbc95b682",
+      "sha256": "aeef3253177adc63bd2f0a7909fecb2a1cfd36ebcabe4cca544c28125c3f6a4e",
       "data_block_sha256": "04e2761e10d1e27ac0e726ef0d96e2f2e7deb34ec72344ced9795d2eb0497118",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -604,7 +604,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 623,
-      "sha256": "2ced35471dbe956391e1d0a8433845ef10d9758f968d33aedbe4edba449304f3",
+      "sha256": "ed1fb89e78dd4444b4da0f0ba6e3aebc59c234a24d3e40fab7c3fb1322cf3662",
       "data_block_sha256": "f534559140a21b91b334a4ee8e9a659488ea3391eac41f52f02114fe96641587",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -617,7 +617,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 635,
-      "sha256": "6a268f08873a2cf154e7479bf71b98febf1db91709192329b243813b6fba6657",
+      "sha256": "9db6f82902077d625f4535c4742d7d88f76501da27665c50c18fb150fe039627",
       "data_block_sha256": "8a9e5354712fab2093daa3731084f177b3ebc880913a174537228f33b86066d0",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -630,7 +630,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 588,
-      "sha256": "6b4696e3dfa17e00be61f32569f4aac25565490dfb13d9c375fa68b4b5ba0e7a",
+      "sha256": "c126b1827822020ef09f078f207ec4820a6927a964e6cc444a7f8613e9417a2c",
       "data_block_sha256": "982da3b648115862826913f5fa294d6c52dd075715752723ce3f349a9927a2ac",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -643,7 +643,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 554,
-      "sha256": "7720e748242ce31b2161edcd64e0afbc7ee4f6e644faf92ccd95e1d323061cb4",
+      "sha256": "634e9fed868eb4a2c119bc9bd3bc4353bc1ec75c2b210da62428336711de4034",
       "data_block_sha256": "a2445046161918b2142e21a343f689ec47fbf9d854f87a516d6fd66881bc0467",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -656,7 +656,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 656,
-      "sha256": "f783569fa75610f1c3df67b885492828f776812f7f96cd2493dbe0208ce25dbe",
+      "sha256": "08072692e01312b787dc8f4bbb049621e3fe4dd3f4588efede4c1e744f6dab0c",
       "data_block_sha256": "68ac774df285f294c247fafd73c016583a76756846da5f93b89b6db9fa74239e",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -669,7 +669,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 603,
-      "sha256": "2ad07e1d79482c6b823b2277243e39dfa7aec7c49cdcb0320218eb4453f655c7",
+      "sha256": "79b58ffa3f6e74d4352f86ceebceff659466edd15ac2e6fc1fba534401087cca",
       "data_block_sha256": "c2158a20c7ba30be1d0d395bd1c8fc801e145e5c02b0a747d4aae0d824d5fd39",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -682,7 +682,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 627,
-      "sha256": "8e750438f18f40bfa4b1d20cde968c15dace02fa738b7794dec116c90d37c1d0",
+      "sha256": "9a997665fb0632baf0e6adcb74aeb52b7c9734345997925433741f227fba15b7",
       "data_block_sha256": "8e3f7d912b6efb4d13f08af38b56d7a41623cbf743fd7ee90d75b1d7bcf956f9",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -695,7 +695,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 524,
-      "sha256": "b9877757f9dc20fc32e5029a35f9598e5cf1ef73a11f8474e31f40404f0fe07c",
+      "sha256": "5364a9decda28f48bc1b8a051353c26e0c2b402c8fad946d35f36b1b55655370",
       "data_block_sha256": "d3a447534a86b8203a82a2b01340ccd3eca420e5fea0965fe8ba4687bffaa1fd",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -709,7 +709,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 627,
-      "sha256": "86fe52aece95dcbd6913119569e42db6aba5bcf4092339910c89910828a841b5",
+      "sha256": "04f05c4e5889bca558118a2710ebb39a697651c06d352f6eeb0b38d8a8a827c3",
       "data_block_sha256": "559a54257fba9754caf51df8f2b2918cca99ab180e9de07722d8f6b6e91e0801",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -722,7 +722,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 473,
-      "sha256": "90181516f9be6ad7046368928751aaf50edf00eb8673b4cce9375996c6a39fb2",
+      "sha256": "084cf85c5d796d347512e0eaee321e14b27f79f8310611f5731d16e43f7a3ba8",
       "data_block_sha256": "4784044f0e3cd716796c2df3284e189caa82254df61e4a27f402b788cc98d114",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -735,7 +735,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 634,
-      "sha256": "764b0555b3e6efa93f63d7d62e09dbda9f89c8868ad3bbbb237e2e301ec60695",
+      "sha256": "adee2589948c7275640e5ac2f396cacf293f980b5d7a26fbd6bd1d78606c4af2",
       "data_block_sha256": "db3dd4c62ae780cf5954f787750e1d3b37dc0f51470f88a3f6b41a731e069783",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -748,7 +748,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 582,
-      "sha256": "f8b69fdad067292f6d7bd8a32d278a43316e1a26055c53f6eaba7015c6c2b9af",
+      "sha256": "74e1cff1cf132214367670877ad64ffa35a07603f72288039e4b6fa0157b0933",
       "data_block_sha256": "37e33e6d4953e5193e44ac9f2c63808f2d7cf96c356d743e39d3ca45d361a693",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -761,7 +761,7 @@
       "activity": "stair_ascent",
       "trial": 1,
       "samples": 723,
-      "sha256": "2106dc047a5d016a1c31e7d65d1107f0c45657243d445cce5886a4f4c10bb672",
+      "sha256": "1081ebffa49e76a742b60a80b70e8e6d68b4618cf7b769c19e7238fdb5d2e436",
       "data_block_sha256": "340ed2cfe7f668f638b71f2cac250826283012d8221c6c438c2c5f71cd3a8c58",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -774,7 +774,7 @@
       "activity": "stair_ascent",
       "trial": 2,
       "samples": 655,
-      "sha256": "ef520885b164642f0882ddf83f36092f70b4005c0b99916f8ff968ecf49688f4",
+      "sha256": "6d4ddc329c899aecda6426494b95f54b5eb5391dd770d5607ef3aff617ffc326",
       "data_block_sha256": "7fca81fe07cabda8c385c885681bff303230ef5fb124f7af7f48fcebf7700215",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -787,7 +787,7 @@
       "activity": "stair_ascent",
       "trial": 3,
       "samples": 657,
-      "sha256": "07868f33803b1951c44e91355687452c8bf20311fc8010573f506ddcf69e9dda",
+      "sha256": "8cfb058f3bbc2e309f104df24eabfbd96e83cb709c70e46880623896cb68660f",
       "data_block_sha256": "1fa611c03ec81521f05ebd8c0f183747ae475f6b632457bc842a1e8244f71916",
       "segmentation": "SubirEscaleras_Elizalde2023",
       "quality_flags": [
@@ -800,7 +800,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 524,
-      "sha256": "8ac86ff56dfb88e256c21bf79e3da1149613d2b1d87103f36b939966960dd0fa",
+      "sha256": "5f5599196980360eb617597ab0101aedba9147b35fc97e91f08a86d4f73ed2fc",
       "data_block_sha256": "d38e49c2f63bff674c3e792420ea7cd53ec6f22b1d1564058eaaa60db2399ba8",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -811,7 +811,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 566,
-      "sha256": "8f33853ba26edc6f7183a93fea03d9964a8a9a542a19b2e079462b0287217ba3",
+      "sha256": "5f57586789662f3dd22782ee07970c28ee14ecaa992d579f862458d836e4a51f",
       "data_block_sha256": "3bbdab003ef2f99aba19b9e7145f915f1d7ca5924e5b178af5c0ab52cdb1a6b8",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -822,7 +822,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 579,
-      "sha256": "8fa76b810e42272b5210552336ade0745e97b5b5e841058aa9c4db5ea99233a9",
+      "sha256": "c431edec2f4d6c2b1b80f8b2d1ac707c71254535087448cfe2149dc1fa69c942",
       "data_block_sha256": "8443041c6bb89eb0d12e6b386373c9e8f55f7599ebf98273dc3d240cfbb06481",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -833,7 +833,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 623,
-      "sha256": "2db5e2edc415e0e417e22874a8b48b4f92d29b9ca5bde2826795e3f947559c4e",
+      "sha256": "38331bd8b63bef561ff94d0da8e802b8c5c1de616c9d85a01f12fafa0de5e453",
       "data_block_sha256": "ae5199f2c03a79d6f0c5681592114ef27c294766b345a6d7a741ae27fab4e75d",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -844,7 +844,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 670,
-      "sha256": "a6982e68ea37558d9b06de3819aa92877d51b88b09d8756b84a12e9c03f88f29",
+      "sha256": "70773d585b5722a879f02adb31a9dfef8f6b783de5a7f5250f735ea111f5f051",
       "data_block_sha256": "b335126155d6f770f386e18c87c7cfd95b3952a440c0371ca788a50bcfa768c7",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -855,7 +855,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 626,
-      "sha256": "3d914ab846aae07be4e9e7aa82f77f3768c61dcf880856363deaaf1d51b22217",
+      "sha256": "f21600b227462a71d3fce8b820374bf866d5154cb669b907747a866a6a210bb2",
       "data_block_sha256": "6fbabfd5c7f97e15c935c28689932e2a773960d3e7df9c78912c5eb920eb0f08",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -866,7 +866,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 538,
-      "sha256": "add096faec7957e40eca1920e1899f314635e41bed24981e0a13ca1c9a7e0e00",
+      "sha256": "b10a47355b22113d3ce13d2683e5989814e92fda8f80b4d002edbfdad6ba5de1",
       "data_block_sha256": "49c2ac3caf6a3c1116b93880728148b0e0c5c8f54cf0e94b133ac995f1264579",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -877,7 +877,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 553,
-      "sha256": "cfe825698339efad0861cf6cba87fc67b5f2f92d00c8c985201d9298ceb3037b",
+      "sha256": "4fa1f2eb9b105d877a67ae88a3f0609d5feb3ae03710a903f041084863f0cfb8",
       "data_block_sha256": "e2faf684072a4ed45d398b21b70db7e1430574bb4beacb2bd8bf4061ffb199ea",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -888,7 +888,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 566,
-      "sha256": "b86c0f02128e87735841c3b85bfe13bacdddee9dd60d4ffb67ec0046fe657d27",
+      "sha256": "208f6dfe7fdfd578fa3ca4f712e4c0442c1ac3fdc118a2e5a68dba34426bb3a1",
       "data_block_sha256": "89a0e7cd7f801882c8d199f82aa51a0b37554370d82cc95c6a1bbc470a953bc5",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": [
@@ -901,7 +901,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 648,
-      "sha256": "2dbe6686450003a1470549f2b9373e3f7e05698a6a143f9a2e2a6934d75221dd",
+      "sha256": "f07e6f93c34b434ed220eb354408b748dbdffe8d99ebb5be41a858179a963008",
       "data_block_sha256": "d527951ac6dac1964ea304eec1818cf8cebafbfd2774a265fc71711b8b864097",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -912,7 +912,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 687,
-      "sha256": "65d1cb7a14b15b121797b13da6aa10851c76a255cf6ad9bc2d409dfc71aea058",
+      "sha256": "9c75586baa99da0d6b5a2475fb6cb1343cecbc6719f463e9058763b44690a240",
       "data_block_sha256": "28879d21aef127498d16994aab9d03dbc92924d295ba0d71a60baa17e8bb479d",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -923,7 +923,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 694,
-      "sha256": "244532535e9d4a4cd5c66bd80210fbcd2dda298e2fa67431d3f7a25086264be5",
+      "sha256": "fba501eadc3c254d66961dfbbe23d403454e2135cd58143718cdbd7383317b01",
       "data_block_sha256": "13a5f8ff716d3e6da4a8666ba439fbd10a59a254ec11eaa531142c7faa0c5e1b",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -934,7 +934,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 492,
-      "sha256": "f4126c73a1a2c80f32a3975e130f9a3b8508b198acdc68c8dc0ebc3c944bb0bd",
+      "sha256": "07b09ed0b408d51865d493f8a4e80cc15cf9e21994651290b3761e5fab6fd980",
       "data_block_sha256": "0fb1a7e72c2617a8a1cfc9c1b9982798b6a052bcce5c03579194f17707f90be3",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -945,7 +945,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 664,
-      "sha256": "8615bea344cb0479cd7bbce6d3b67e119ef20e72d4638e9d69114f7169803433",
+      "sha256": "c3a50ca6a46fac7e1740dd99ad80e7d015191117059651a257bc5344d4b4dd55",
       "data_block_sha256": "a3395dd05fc39636ba8d9ed1008d713f5925ec15a4ac6921d0c8de06a60ae8d7",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -956,7 +956,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 831,
-      "sha256": "643f31859ea575976d4c136288c56698e661278835b0b9b688aa78695e640e34",
+      "sha256": "43b2a8f545e570ecac733cbaabd2138a9a95e4466bbb91ac4bd01d5e1eda8c76",
       "data_block_sha256": "ef7f3cb9631ce5b845e5e8c90d15875f92d7160f7084afe054cb090de8762676",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -967,7 +967,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 600,
-      "sha256": "19126dcea8c7ba6c41fde93dcb14ec27fd78f463606bb7cbd38832794b1a671f",
+      "sha256": "5dab52094ce608894dd51648bc7683e769345ee3065978590b74a48b979aba0b",
       "data_block_sha256": "89d4e32b410dfd2bf491ccba627ee14ae1269d70937bcb6a6df74b5e82d844d9",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": [
@@ -980,7 +980,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 600,
-      "sha256": "d32e954cf6d5143e38a2418efbe29e6bd93570e3219fb13fd96c78140473404f",
+      "sha256": "bf47a08d089790d8a287baf9d9c60762d9f739d94094923bac25eba7147b655a",
       "data_block_sha256": "eac817bb89f392c7dbf42f9f9f65d9c93018825ab237bfd404f7d91f3d191303",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": [
@@ -993,7 +993,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 630,
-      "sha256": "b888ab2a26ca31d6a713116631b44d09da2f818aaf12803bd3aa9afa05606902",
+      "sha256": "555b621654968b4f9422b1ec0c7f5579f451ccd490c705b4bf2b0d6cccb6e843",
       "data_block_sha256": "13f4be87471a2f21ac9dd389dda3a94fd2c74898bf9ef13b42b7b9cb204fb9cd",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": [
@@ -1006,7 +1006,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 399,
-      "sha256": "656d3f74943b2a6de5bb94a1abd1207fbf95ae74e409fef48183725dfe5ecf48",
+      "sha256": "baba67bc252362c0cb9c19cb351f1716c00eeb6c374bb97bc227b9e3ffa386df",
       "data_block_sha256": "d8a28e74cf00ffdac4d16bdea84dbfcf71f0ff0c91eb54305123ddc15330ecc7",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1017,7 +1017,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 322,
-      "sha256": "ca00f02077f585780f60e10ffffe416d69891003744eb21bfa6749ad98a7d9e3",
+      "sha256": "da4c48a9b1a45b05559e987a07f896de5d861c34a5e9f5cdc05ad55862797821",
       "data_block_sha256": "72c4eee1b1dccd83ee4df23f8c9730568b1790279e21621eb476a669c7f02760",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1028,7 +1028,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 445,
-      "sha256": "5dda43cd901954b37c72024989a3f4fcae91f5854753ceafcb236036dc57de3f",
+      "sha256": "4cf62055361de98f91aafb13848bc6559962582e09c8b1ec47287643ab1201fb",
       "data_block_sha256": "dce7af2cd99faa6a7165ad9a1fc89c20363c6c5c8847de73f5569f42a1e723f7",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1039,7 +1039,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 526,
-      "sha256": "0f579ff481702c5b7fd7e07aa706423eb4ca3f2062807fe7eecb00df597254e5",
+      "sha256": "3253d4b7f1ce6369e83e2ca5f5b9ae74d00b88986afc64fe46df461abb61078d",
       "data_block_sha256": "6ad14345cf623d8238b8de1274c452e52d1a3c1a16c48496f0cd81480e81a3ee",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1050,7 +1050,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 514,
-      "sha256": "7ba37cfed3606ceae5eb9436307e2ac06c80818874e2d43c7a1858cbf6514712",
+      "sha256": "e2483515026c9a7e5f82e89194dd1ece0a2d8688c854a1954d661b2e31277989",
       "data_block_sha256": "c3b55c1251917fbea71af35a1917d3d4903298037d529f753d670c60762d96c0",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1061,7 +1061,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 579,
-      "sha256": "24029c81e65e25649a367cb5d10cbcfaf50de9b97590e6cc0033320a6a553b92",
+      "sha256": "6827888f1abc1654cd3f617a7ba2300a667ed1121c5391a2ae1a0bf2a47ea59c",
       "data_block_sha256": "8641062e390714720daa1ed8852d03ab85f1438d6686200e74de160122d7890b",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1072,7 +1072,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 448,
-      "sha256": "22ad7c72cfbf8793a5b36e66d17e2ac9c6b637ffff4e36de4597721119f04531",
+      "sha256": "c478a82c38ce5dcb269d610641962df1a695cdaa81ae81f8a2f23f569acf827b",
       "data_block_sha256": "f2a80e642491dd6b70ff6e000eca5cd8e855f552e5edb2a654d03600f73bfe92",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1083,7 +1083,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 483,
-      "sha256": "072c540954cbe143bb668012fd4ff0674ee23c3a14dfec782b68aa119886ff07",
+      "sha256": "445b5b63e1b24efae1e8247f926420cc1d42709c03324c375d08a29802878c2b",
       "data_block_sha256": "a26051b4a893c50b8ce065c9b13fe703bb59f291d60d8a3811e2992908f50f26",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1094,7 +1094,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 521,
-      "sha256": "137e6e58d451d87fe7e7b2e42599ae10819a692d31b5c8dba7bb2efe95b1945c",
+      "sha256": "cfad57df24a2b704e54722681f3027038c89552974522ac291d5f5fecf6f5981",
       "data_block_sha256": "ac4ffc6530963520eaccc9af9e055371cf06298159f539bda6d6b76e9b6405f9",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1105,7 +1105,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 423,
-      "sha256": "0142f926f918a71599f59747cea2ac307b123c2be8180a77f754a3728dfc7191",
+      "sha256": "97a6f49c90362a0e2f9a2fbc8140b96e630a1aec4e5745f492c1e16c8f73f804",
       "data_block_sha256": "7ce67d0671f5d284abaf568771929fd9ff6e4cc5c1671a77478aeb6540ad2ffd",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1116,7 +1116,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 526,
-      "sha256": "a9c95901e763f33a796aecad37a7c6192ca1ef368c7fbe5a66a5d7f09901a055",
+      "sha256": "b5db168001241a7d3021cea95af8b2ffe5d781eb211ab7731316b53b9e6e3033",
       "data_block_sha256": "b73dd45ca1cea8d5710f69b41a6e5547e3fea22d1c2c01d4824941d65d169f0d",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1127,7 +1127,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 632,
-      "sha256": "706b75d24dead0428e03899aadbfec5ae41bb976ae4f602787127f729cdd5e52",
+      "sha256": "c9fa93e05ee29e6446521acd73379aba5e494f048b391d052c158157a1759b7c",
       "data_block_sha256": "6164c6f24d50dfdc0efce66c673c4d0b1a8970a2ca71a48061ac1efad1ed0bc8",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1138,7 +1138,7 @@
       "activity": "stair_descent",
       "trial": 1,
       "samples": 632,
-      "sha256": "57c3dace2fbca74048fee3f8802e9d95ee91db64eff51518f86e27c18d197058",
+      "sha256": "93f51308e980260f1caa7e6a0ec87274261416d4c94d493c57ec861460ac9985",
       "data_block_sha256": "51c58cd9001114e4c64c541a3f8af47125997786f558651b099081de02949a14",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1149,7 +1149,7 @@
       "activity": "stair_descent",
       "trial": 2,
       "samples": 606,
-      "sha256": "ce5df64978f4ff2808412a5fda3f50cb1ce1b151ff8dbbd385acd03f8b6b9e50",
+      "sha256": "40cc93a3f837c09b4dd809b96d18b0602de4c7fe609de604b2ceea5cfe6759ff",
       "data_block_sha256": "a07b7f178d1234159ed37091ba8114566ffa9fc77df913bc5cffeae89b62a5b6",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1160,7 +1160,7 @@
       "activity": "stair_descent",
       "trial": 3,
       "samples": 641,
-      "sha256": "d005645a5473cfe5d096ed0430148f7513668676d207e0477f6570f28cbf2a12",
+      "sha256": "be7285d2173ab2811ee2e525848b2b72f526ca9f822e41dc0ec148fc4b05c5f3",
       "data_block_sha256": "5a45488dff105338afd7f41156ed5dc3eb267a7732cd65ce7be3ed9671b11c96",
       "segmentation": "BajarEscaleras_Elizalde2023",
       "quality_flags": []
@@ -1171,7 +1171,7 @@
       "activity": "sit-to-stand",
       "trial": 1,
       "samples": 1609,
-      "sha256": "f935cc26ce5c73f783d834d37eb29fe2b2fdf7428f65ee08517aff992a32da08",
+      "sha256": "24867509b12b74ed80d7866c908aa44789454f6d282ef521bfca39dc13d3f216",
       "data_block_sha256": "2bd3de85cc268a2b1d4111b7fac47c4f01156cefc01f5fac7aa65bb4a75fdc48",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1182,7 +1182,7 @@
       "activity": "sit-to-stand",
       "trial": 2,
       "samples": 1516,
-      "sha256": "37ee8e231857dda5238d1654e98eef22df1566abeda93942b151b2a774218e22",
+      "sha256": "46168fcbd56b10810f338c11d9776384c12b307d3f703c719c7ef35e305548ec",
       "data_block_sha256": "83573a776239ebb1e0cc2f7eb293aaa57e7467eb8b1c78cbf6f8f72823070987",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1193,7 +1193,7 @@
       "activity": "sit-to-stand",
       "trial": 1,
       "samples": 1465,
-      "sha256": "bea4071e781c447d5f59f682d50c9d429df3209750b09ed825f5775a2808baf6",
+      "sha256": "3b4d0c91497ae10dc4df7e776de453f33141462c75509ee279e8813ffbc0ea88",
       "data_block_sha256": "fceb772ecb69adb8eaafe8be1e9118902b3b235b0971f76f494df88e7803ad91",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1204,7 +1204,7 @@
       "activity": "sit-to-stand",
       "trial": 2,
       "samples": 1329,
-      "sha256": "bf9e0644128b7b66cd579ce404f0252964c596bc49f303c0398e42de6b6e0c64",
+      "sha256": "cd30331ad5228b79964d87b5c9cca9a6cfcaac19cd8c105282f5f9346d15377b",
       "data_block_sha256": "22e07030cc38b566449e12d36a0aafd39a6a491b45f32c020ecb14b51fd7d088",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1215,7 +1215,7 @@
       "activity": "sit-to-stand",
       "trial": 1,
       "samples": 1426,
-      "sha256": "524322375331a3cfcb20ffd0b07eeecd2bd11b83d13b32274ec31fc0dd8be0cd",
+      "sha256": "244861be674691af56d95aadcc958227a83fe618c767d3e4ca69eb017fd419b2",
       "data_block_sha256": "2e34c5da92086018e27ef39ea63bbcaea55a32bdb8b10ea3d3522041db89986c",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1226,7 +1226,7 @@
       "activity": "sit-to-stand",
       "trial": 2,
       "samples": 1340,
-      "sha256": "cd0ae3f674b1f6195276bb0ee74a5f3d898aa5512042f63955d442328ef968bd",
+      "sha256": "c38d26dbcfe4dee23ccd5ebdd93f81e5691bd65075f956dd9ee16955824880f2",
       "data_block_sha256": "af067ef304a934bda37c5e616bb284b4ec665d6604ef12a6be9ab79a422e4ddd",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": [
@@ -1239,7 +1239,7 @@
       "activity": "sit-to-stand",
       "trial": 1,
       "samples": 1933,
-      "sha256": "cb79895d256a13856b5dd0c75583fa5890b34e34b3fffef30293c36562010d27",
+      "sha256": "2fab8d3fafcc5e3c1ffa5c1e881d8e7b6de01d077601062d206fffaf38f9ed56",
       "data_block_sha256": "5a58636504f215d1b1bc0639deea41e75af394564df8a9a4768471894873a589",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1250,7 +1250,7 @@
       "activity": "sit-to-stand",
       "trial": 2,
       "samples": 1768,
-      "sha256": "e9f858e27355fb468954fa84ffaa5495323f6d9ddc45c27ff2440fcb3e041d11",
+      "sha256": "7faeed773f5923a6a81b8a364390d8f8ba75bb6a25e8f27e625f319e35847d65",
       "data_block_sha256": "032a3109d8feed5bad4f55ea4d7e432601e18a2f350b9c8e25fe36ae9d0273f2",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1261,7 +1261,7 @@
       "activity": "sit-to-stand",
       "trial": 1,
       "samples": 1598,
-      "sha256": "42893e1e1d99e519e52b176f665e77d75a6a91022cf3af1544177725d6cf4420",
+      "sha256": "d9c0cd5372afb1f31e50d00f4fe67f8aac78ec86c595cd14cdc337db3ee4d3fe",
       "data_block_sha256": "33eefa5aa4be775160d3faf791367867052f61e35f74bb128965eebe7f985395",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1272,7 +1272,7 @@
       "activity": "sit-to-stand",
       "trial": 2,
       "samples": 1576,
-      "sha256": "54d36758c5fa4ae95333277736bb11f76616b7051d1de18f05beb68c3358d2d3",
+      "sha256": "92b6c3c8997256629b368ada21f881ebcdd42ce7bcca4cfd9815fe487b104a2e",
       "data_block_sha256": "55e2290e728a95ee04a529fb24b49863467e9fd97d1ca24332fdecc1311079c8",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1283,7 +1283,7 @@
       "activity": "sit-to-stand",
       "trial": 1,
       "samples": 1706,
-      "sha256": "a8a2a071ba58f7c346caa27e06141940a4d76e322defb9f14d643de508ac7b4b",
+      "sha256": "0315ffa0fe6051bdee3b11cf0dcd94720b6cfc92336e80fc39f9c4270254f965",
       "data_block_sha256": "e260e4a076e9680dd0f7130382a96df5a795330d2f648e92e198fcdc8730a409",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": [
@@ -1296,7 +1296,7 @@
       "activity": "sit-to-stand",
       "trial": 2,
       "samples": 1804,
-      "sha256": "2a22b4090190d1a61cb8769378ad11ee4619432422045723cc45aac07b5f6c4d",
+      "sha256": "6b5ce91a76e06bb79bf182bd68ad4db171d8f7b68db61cb0aa53215cf6e064db",
       "data_block_sha256": "eaceb33f39d420deb6b9c23c5399ef61326d28927ca86f9b6b54c9d5b7767b10",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": [
@@ -1309,7 +1309,7 @@
       "activity": "sit-to-stand",
       "trial": 1,
       "samples": 1106,
-      "sha256": "89fb4ef24d6127546965676ed414c03ffce177716a9c3f14e07b297f8eb50c4d",
+      "sha256": "3dd33d065440b6282b97b05624e9273c45e355d4c08df9e631769bfbf2880e8a",
       "data_block_sha256": "83d23afe0fdd0b2c2c3a8d1197e8ddf3817d959255bdba53c087540f34955b7a",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1320,7 +1320,7 @@
       "activity": "sit-to-stand",
       "trial": 2,
       "samples": 1043,
-      "sha256": "439b1d94bebfccabf2f6b193251339b94f8da361ae82c1ebe1a9d87d7d9a612c",
+      "sha256": "1b42a406b2e0bbdb624c476d3a612e116487b58359134917e5cfadefe4167cf9",
       "data_block_sha256": "85fe9925e068e823c738bf4f112c7303e2e4f6a346b964a6b82577d0b8a92a79",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": [
@@ -1333,7 +1333,7 @@
       "activity": "sit-to-stand",
       "trial": 1,
       "samples": 1562,
-      "sha256": "59703a4fd544ad8f8538b7c1d5eda44bc1cbe3ef8861cf3161ca4d75b8b9d4be",
+      "sha256": "061e9f45eb374671dc5d7f7f0a21b0fa1789fc07caac31dbe10915b3666b33e3",
       "data_block_sha256": "3852c70a996b833addf997ea1b9a09b9d0718ea1b57845ad9251317de0e52757",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1344,7 +1344,7 @@
       "activity": "sit-to-stand",
       "trial": 2,
       "samples": 1535,
-      "sha256": "b072613c44c357edd505690d4c459c405266280db6e45a086a28a6dfb5c20027",
+      "sha256": "88a09229fb1b72ec882245fd00c85e5ace7ddabb78479482d3c7e46df2150e69",
       "data_block_sha256": "7e88b1b6c9c81c8f4140c3e9883ac0e1a5063976b35d5f5594f23e614525d6f8",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1355,7 +1355,7 @@
       "activity": "sit-to-stand",
       "trial": 1,
       "samples": 1753,
-      "sha256": "e8fdee6ace2029f65c292a0ca58818ed4397016a353cb262817b81267ed046eb",
+      "sha256": "9c30cecf0c1ca835e14db926cd95f56c46f5ca507047ef7c9c13e0cc1c48f084",
       "data_block_sha256": "00317c215111ccef109a1876e4f879204d284edc4bb801911837fa112cb7f44a",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1366,7 +1366,7 @@
       "activity": "sit-to-stand",
       "trial": 2,
       "samples": 1621,
-      "sha256": "80d4be52569f0f141fff4eb9f882d5d5e4703fa68cb2716c3a444f2bde3ab915",
+      "sha256": "71b5b5e0affd61833099e4b332bc6999acee655df13298f8f618b63e953ac8d2",
       "data_block_sha256": "c17bbf4f145125b675b570bdcf519a3ff2ef68ffb3cce2aeb98ebd7d3c71da9f",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1377,7 +1377,7 @@
       "activity": "sit-to-stand",
       "trial": 1,
       "samples": 1917,
-      "sha256": "232dfe615669b49b1d96752d600ddfaa02063a9c7aa063ed9294be03bdda55a4",
+      "sha256": "02740f00ded3889c11442585a3d11eaddf43321d063eb2e1bfa71459acdbf734",
       "data_block_sha256": "9008afce45376cb496169c861ecdadbc0930a703290422a6c9580a27c1661ca4",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": [
@@ -1390,7 +1390,7 @@
       "activity": "sit-to-stand",
       "trial": 2,
       "samples": 1541,
-      "sha256": "03e955723255c074421776a9079ab399534c1e08715398dc1e0d78bde7e989da",
+      "sha256": "baab44ce5f59562363306c0e0806bc86835c7738644b1bc72956843877e5245f",
       "data_block_sha256": "5433ab8fbec075b5b9e2187f518d2820f2bc61cc7601db3d287c018b8b40452b",
       "segmentation": "Elizalde_STS2023",
       "quality_flags": []
@@ -1404,13 +1404,22 @@
   },
   "distinct_participants": 15,
   "label_policy": "Original recorded Elizalde labels; no thesis relabeling",
-  "privacy": "Pseudonymized; private correspondence excluded; not guaranteed anonymous",
+  "privacy": "Sxx/OPxx codes; full birth dates and capture times included; private correspondence excluded; not anonymous",
   "metadata_policy": {
     "layout": "Latest acquisition order; unavailable fields omitted",
     "participant": "Canonical Sxx code",
     "operator": "Stable OPxx code",
-    "personal_dates": "Age at capture instead of date of birth",
-    "capture_time": "Exact source Trial DateTime retained with recorded precision"
+    "personal_dates": "Verified participant Birthdate in every capture; no Age field and no date inferred from age",
+    "capture_time": "Exact source Trial DateTime retained with recorded precision",
+    "personal_date_counts": {
+      "Birthdate": 116,
+      "Age": 0
+    },
+    "birthdate_evidence_counts": {
+      "explicit_user_confirmation": 13,
+      "recorded_in_same_capture": 35,
+      "recorded_in_another_capture_same_participant": 68
+    }
   },
   "quality_flags": {
     "missing_angle_or_acc_z_preserved": [
