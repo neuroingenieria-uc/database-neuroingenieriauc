@@ -14,12 +14,9 @@ Segmentation,Elizalde_STS2023
 Sampling Frequency,62.5
 Number of Samples,1562
 Description,Protocolo NEG - 5xSTS
-Speed (m/s),
-Trial Year,2025
-Stair Time (s),
-Time Source,RealTime
-Vertical Displacement (m),
 Sit-to-Stand Time (s),24.744450
+Time Source,RealTime
+Trial DateTime,2025-09-12T10:13
 
 Angle_X,Angular_Velocity_X,Linear_Acceleration_X,Angle_Y,Angular_Velocity_Y,Linear_Acceleration_Y,Angle_Z,Angular_Velocity_Z,Linear_Acceleration_Z,FootSwitch_Heel,FootSwitch_Toe,Segmentation_output,Sync,Activity
 11.7,nan,nan,nan,nan,-1.6855,nan,nan,-8.4276,nan,nan,4,0,ST

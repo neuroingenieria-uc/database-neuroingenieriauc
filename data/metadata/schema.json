@@ -20,11 +20,14 @@
     "Number of Samples",
     "Description",
     "Speed (m/s)",
-    "Trial Year",
     "Stair Time (s)",
+    "Walk Time (s)",
+    "Sit-to-Stand Time (s)",
+    "Task Time (s)",
     "Time Source",
     "Vertical Displacement (m)",
-    "Sit-to-Stand Time (s)"
+    "Track Distance (m)",
+    "Trial DateTime"
   ],
   "data_columns": [
     "Angle_X",
@@ -47,16 +50,20 @@
     "Subject": "Stable pseudonymous participant code, shared across activities",
     "Operator": "Stable operator code; correspondence excluded from this folder",
     "Age": "Completed years at capture, not at release; see README for derivation",
-    "Trial Year": "Capture year only; exact capture date/time excluded",
+    "Trial DateTime": "Exact recorded capture date/time, with its original precision; not a per-sample timestamp",
     "Reference Orientation": "Original description retained; not a verified harmonized axis mapping",
     "Segmentation": "Original declared Elizalde implementation; not a manual gold reference"
   },
   "protocol_fields": [
     "Speed (m/s)",
     "Stair Time (s)",
+    "Walk Time (s)",
+    "Sit-to-Stand Time (s)",
+    "Task Time (s)",
     "Time Source",
     "Vertical Displacement (m)",
-    "Sit-to-Stand Time (s)"
+    "Track Distance (m)"
   ],
-  "empty_protocol_fields": "Not applicable or not reported; never filled by assumption"
+  "metadata_order": "Latest acquisition layout with Age replacing the personal date field; Trial DateTime last",
+  "empty_protocol_fields": "Omitted when unavailable, empty or inapplicable, as in the latest acquisition writer; never inferred"
 }

@@ -103,10 +103,11 @@ date was available in the source, age was calculated from it and the actual
 capture date. Otherwise the reported age was retained. Nine historical S09
 records have a documented metadata correction from 36 to 37 years based on a
 confirmed birth year and the full date recorded in later captures.
-Only capture year is retained in `Trial Year`.
+`Trial DateTime` preserves the exact date and time recorded for each capture,
+including the source precision. No additional seconds or timezone are inferred.
 
 The files are pseudonymized, not guaranteed anonymous. Age, height, weight,
-clinical description and movement signals remain in the release. This update
+clinical description, exact capture time and movement signals remain in the release. This update
 does not erase identifying information from previous Git commits.
 
 ## File Naming
@@ -122,8 +123,10 @@ the manifest hashes for reproducibility.
 ## CSV Layout
 
 Each CSV has key/value metadata rows, a blank separator, and a sample table
-starting at the `Angle_X,...,Activity` header. Metadata fields are consistent
-across files, with unavailable or inapplicable protocol fields left empty.
+starting at the `Angle_X,...,Activity` header. Metadata follow the latest
+acquisition layout: `Age` replaces the personal date field, operators use codes,
+and `Trial DateTime` is last, after the available protocol fields. Unavailable,
+empty or inapplicable fields are omitted rather than filled by assumption.
 Values containing commas are CSV-quoted. Locate the sample header rather
 than assuming a fixed number of metadata rows. `schema.json` lists all fields.
 Recorded descriptive values may remain in Spanish; they were not translated
@@ -186,7 +189,7 @@ print(signals.head())
   minimum (-16.0124 m/s2). A measurement limit is a possibility, not a confirmed
   saturation diagnosis. One ascent trial also contains a 16.2-degree angle jump.
 - One descent recording lacks reported stair timing metadata. Those fields
-  remain empty; they were not inferred.
+  are omitted; they were not inferred.
 - Older and newer recordings have different declared X/Y orientation descriptions.
   These original descriptions are retained, not assumed to have been physically
   harmonized by this update. Review them before combining axis interpretations.
